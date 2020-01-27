@@ -1,0 +1,117 @@
+\documentclass[11pt]{beamer}
+
+%http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/beamer-contrib/themes/metropolis/doc/metropolistheme.pdf
+\usetheme[progressbar=frametitle, subsectionpage=progressbar, sectionpage=none]{metropolis}
+\usepackage{appendixnumberbeamer}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{adjustbox}
+\usepackage{tabularx}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning,shapes.misc} 
+
+\usepackage{xspace}
+
+%\definecolor{mDarkBrown}{HTML}{604c38}
+%\definecolor{mDarkTeal}{HTML}{0a2343} %% orig: 23373b
+%\definecolor{mLightBrown}{HTML}{EB811B}
+%\definecolor{mLightGreen}{HTML}{14B03D}
+
+\usepackage[backend=biber, 
+		natbib=true, 
+		style=C:/texmf/bst/biblatex-sp-unified/bbx/biblatex-sp-unified,
+		citestyle=C:/texmf/bst/biblatex-sp-unified/cbx/sp-authoryear-comp, 
+		maxbibnames=99, 
+		isbn=false, 
+		doi=false, 
+		eprint=false]{biblatex}
+\addbibresource{ep.bib}
+\setbeamertemplate{bibliography item}{}  %% To stop a little icon appearing.
+
+% -------------------------------------
+
+%% Creates a description environment where the text for each item is evenly
+%% left-aligned based on the width of the longest label.
+%% Source: https://tex.stackexchange.com/questions/23559/how-to-control-enumitems-description-list-via-leftmargin-and-labelwidth-keys
+\newenvironment{mydesc}[1]
+{\list{}{\renewcommand\makelabel[1]{\textbf{##1}\hfil}%
+		\settowidth\labelwidth{\makelabel{#1}}%
+		\setlength\leftmargin{\dimexpr\labelwidth+\labelsep\relax}}}
+{\endlist}
+
+%% Changes the beamer template to have the total slides displayed as well as
+%% the current slide.
+\setbeamertemplate{footline}{% 
+	\hfill% 
+	\usebeamercolor[fg]{page number in head/foot}% 
+	\usebeamerfont{page number in head/foot}% 
+	\insertframenumber\,/\,\inserttotalframenumber
+	\kern1em\vskip15pt
+}
+
+\setbeamercolor{background canvas}{bg=white}
+
+% -------------------------------------
+
+\newcommand{\sfx}[1]{\mbox{-\textit{#1}}}
+\newcommand{\pfx}[1]{\mbox{\textit{#1}-}}
+
+\newcommand{\hkeit}{\mbox{-\textit{heit}}/\mbox{-\textit{keit}}\xspace}
+\newcommand{\pp}{$\mathscr{P}$\xspace}
+
+\newcommand{\hfillcite}[1]{ {\color{mDarkBrown} {\scriptsize \hfill\citep{#1} }} }
+
+% -------------------------------------
+
+\definecolor{firanavy}{RGB}{0,0,139}
+\definecolor{firateal}{RGB}{73,146,147}
+\definecolor{firagold}{RGB}{226, 189, 54}
+
+% -------------------------------------
+
+\title{Taboo implementation}
+\subtitle{BM1 Advanced NLP -- Final project}
+\date{February 6, 2020}
+\author{Anna-Janina Goecke, \newline Rodrigo Lopez Portillo Alcocer, \newline Elizabeth Pankratz \newline}
+\institute{Universität Potsdam}
+ \titlegraphic{\vspace{0.25cm}\hfill\includegraphics[height=2cm]{01_UP.jpg}}
+
+% -------------------------------------
+
+\begin{document}
+	
+\maketitle
+
+\begin{frame}{Slide title}
+
+Filler!
+
+\end{frame}
+
+\begin{frame}{Slide title again}
+	
+	Some more filler!
+	
+\end{frame}
+
+% ----------------------------------------------
+
+%\appendix
+%
+%\begin{frame}[allowframebreaks]{References}
+%
+%\renewcommand*{\bibfont}{\tiny}
+%\printbibliography
+%
+%\end{frame}
+
+% ----------------------------------------------
+
+\end{document}

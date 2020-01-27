@@ -1,0 +1,51 @@
+[COLLOCATIONS]
+  - []{Evert2009} in LuedelingKyto2009 Corpus Handbook chapter 58
+  - "Collocations in this Firthian sense can also be interpreted as empirical statements about the predictability of word combinations: they quantify the `mutual expectancy` (Firth 1957, 181) between words and the statistical influence a word exerts on its neighbourhood" [1213]{Evert2009}
+  - there are other possible senses, but the above is the one used in this paper, since the observability in corpora is important for corpus ling (shocking but true)
+  - "Following the Firthian tradition (e.g. Sinclair 1991), we define a collocation as a combination of two words that exhibit a tendency to occur near each other in natural language, i.e. to cooccur" [1214]{Evert2009}
+  - three types of co-occurrence between words [1215]{Evert2009}
+    - surface cooccurrence (words co-occur if they appear close together in text, measured by intervening word tokens)
+    - textual co-occurrence (co-occurrence in same sentence, clause, paragraph, document, etc)
+    - syntactic co-occurrence (often stand in same semantic relation to one another)
+  - a measure of co-occurrence strength, used to distinguish true collocations from words that simply frequently co-ioccur, is statistical association (Sinclair 1966, 418)---occurrences of words are interpreted as events, and then statistical association measures can be used to quantify the attraction between two events [1215]{Evert2009}
+  - approach: "ranking approaches (which place word pairs on a scale of collocational strength without strict separation of collocations and non-collocations)" [1217]{Evert2009} (because it's senseless to impose arbitrary, binary categories) and "the node-collocate view focuses on the collocates of a given word, i.e. `the company it keeps`" (rather than the unit view which considers collocated words as independent units)
+  - "The node-collocate view, on the other hand, focuses on the predictability of word combinations, i.e. on how a word (the node) determines its `company` (the collocates). It is well suited for the linguistic description of word meaning and usage in the Firthian tradition, where a node word is characterised by ranked lists of its collocates (Firth 1957)" [1217]{Evert2009}
+    - this is more what we are after, I think---we care about finding those TWs that make the MW the most likely
+  - SIMPLE-LL: for the noun bucket, "the top collocates according to the simple-ll measure are dominated by high-frequency cooccurrences with very common words, including several function words: water, a, spade, plastic, size, slop, mop, throw, fill, with"
+  - "cooccurrence frequency alone is not sufficient to quantify the strength of attraction. It is also necessary to consider the occurence frequencies of the individual words, known as marginal frequencies, in order to assess whether the observed cooccurrences might have ome about my chance. In addition, a measure of corpus size [= sample size] is needed to interpret absolute frequency counts" [1220]{Evert2009}
+    - Because if both words are frequent, then "If the words in this corpus were rearranged in completely random orde,r thereby removing all associations between cooccurring words, we would still expect to see the sequence" frequently, just by chance [1224--1225]{Evert2009}
+    - thus, high co-occurrence frequency alone does not constitute evidence for a collocation
+  - frequency signature of a word: (O, f_1, f_2, N)
+    - O = the observed coocurrence frequency in a given corpus, i.e. type count of the word pair
+    - f_1 = marginal frequency of first component of word pair
+    - f_2 = marginal frequency of second component of word pair
+    - N = sample size (corpus size)
+  - surface co-occurrence is popularly used in CL in word space models in distributional semantics (Schuetze1998, Sahlgren2006) [1224]{Evert2009} ... which we're already using ... so maybe would be better to look at the syntactic collocates? we'll see...
+    - that might be nice, because we're interested in collocates used irectly beside the given word, and maybe those are the ones that are in the closest semantic relation... we'll have to see
+    - *could make it different by only looking at a span of one character, i.e. bigrams*
+  - the expected number of co-occurrences of two completely uncollocated words can be attained with the following reasoning:
+    - e.g. "to" occurs 26 times in 1000 words, on average
+    - "is" occurs 10,000 times in the corpus, so each of those instances has a chance of 26/1000 to be followed by "to", so we would expect 10,000 x 26/1000 = 260 occurrences of the bigram "is to", just purely based on chance, without any association between the words [1225]{Evert2009}
+    - this is the expected value for the number of coocurrences in a corpus of however many words
+    - E = f1 * (f1/N) = f1f2/N
+      - in textual and syntactic co=occurrence, use this formula directly
+      - for surface co-occurrence, use an additional factor k that represents the total span size of the window used
+    - *a word pair is only considered collocated if the observed occurrence frequency is dramatically higher than the expected value: O >> E* [1225]{Evert2009}
+  - simple association measures introduced by Evert2009 "quantify the `attraction` between two words, i.e. their statistical association, by comparing observed cooccurrence frequency O against E, the expected frequency under the null hypothesis of independence (i.e. complete absence of association)" [1228]{Evert2009}
+  - "Of the significance measures shown ..., simple-ll is the most accurate and robust choice" [1229]{Evert2009}
+    - "It has to be kept in mind that simple-ll is a two-sided measure and assigns high scores to both positive and negative associations. If only positive associations are of interest (as is the case for most studeis), then word pairs with O < E should be discarded. Alternatively, simple-ll can be transformed into a one-sided measure that satisfies both conventions for associationscores (by multiplying scores iwth -1 if a word pair has O < E)" [1229]{Evert2009}
+  - "Association measures with a background in information theory take a different approach ... They ask the question `to what extent do the occurrences of a word w_1 determine the occurrences of another word w_2?`, and vice versa, based on the information-theoretic notion of mutual information (MI)" [1229]{Evert2009}
+  - ** "The recommended strategy is therefore to apply simple-ll, t-score and MI as proven association measures with well-understood mathematical properties, in order to obtain three entirely different perspectives on the cooccurrence data. MI should always be combined with a frequency threshold to counteract its low-frequency [1230] bias" [1229--1230]{Evert2009}
+  - "address empirical linguistic properties, i.e. we ask what kinds of word pairs are identified as collocations by the different association measures" [1238]{Evert2009}
+  - "simple-ll is a useful measure for identifying typical and intuitively plausible collocates of a node word" [1238]{Evert2009}
+  - "If we take a pre-theoretic view of collocations as an observable property of language, though, the purpose of association scores is to measure this property in an appropriate way, not to match theoretical linguistic concepts" like binary yes/no classificaiton of collocatedness [1240]{Evert2009}
+  - Evert2009 gives a step-by-step walkthrough of how to identify and score collocations from a given corpus on 1242--1243
+  - "effect-size measures do not correct for sampling variation, while significance measures are biased towards high-frequency word pairs with small effect sizes (which tend to be uninteresting from a linguistic point of view)" [1245]{Evert2009}
+  - In my own words: the issue with the simple association measures, the ones that don't consider the marginal frequencies of the words overall, is that words that are highly frequent in general can sneak in, regardless of how distinctive they are for the actual node word. One way around returning these words by accident, if the measure turns out to be high, is to reject all stop words or highly frequent `function words`.
+  - 
+
+[OTHER MEASURES/FACTORS TO CONSIDER]
+  - frequency in corpus
+  - part of speech
+  - whether MW is normally the f_1 or f_2 of the word pair
+  -

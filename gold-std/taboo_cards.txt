@@ -267,6 +267,7 @@ carriage
 card
 -send
 -deck
+-52
 -game
 -play
 

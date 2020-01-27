@@ -20,7 +20,7 @@
 \usepackage{xspace}
 
 %\definecolor{mDarkBrown}{HTML}{604c38}
-%\definecolor{mDarkTeal}{HTML}{0a2343} %% orig: 23373b
+\definecolor{mDarkTeal}{HTML}{233350} %% orig: 23373b -- changed to match UP logo colour
 %\definecolor{mLightBrown}{HTML}{EB811B}
 %\definecolor{mLightGreen}{HTML}{14B03D}
 
@@ -89,11 +89,46 @@
 	
 \maketitle
 
-\begin{frame}{Slide title}
+% -------------------------------------
 
-Filler!
+\begin{frame}{The goal}
+
+\begin{columns}
+
+\begin{column}{0.5\textwidth}
+
+	\begin{center}
+		\includegraphics[width=.6\linewidth]{taboo.jpg}
+	\end{center}
+		
+	\vfill 
+	{\tiny \href{https://www.amazon.com/Hasbro-A4626-Taboo-Board-Game/dp/B00D4NJSBW}{(image source)} }
+
+\end{column}
+
+\begin{column}{0.5\textwidth}
+
+	We plan to implement two components of the gameplay:
+	
+	\begin{itemize}
+		\item[$\rightarrow$] \textbf{Taboo card generator}
+		\begin{itemize}
+			\item gensim word embeddings
+			\item corpus-based collocation measures
+		\end{itemize}
+		\item[$\rightarrow$] \textbf{Taboo player}
+		\begin{itemize}
+			\item LSTM RNN using PyTorch
+		\end{itemize}
+	\end{itemize}
+
+\end{column}
+	
+\end{columns}
 
 \end{frame}
+
+% -------------------------------------
 
 \begin{frame}{Slide title again}
 	

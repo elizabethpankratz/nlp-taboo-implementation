@@ -114,6 +114,7 @@
 		\item[$\rightarrow$] \textbf{Taboo card generator}
 		\begin{itemize}
 			\item gensim word embeddings
+			\item WordNet
 			\item corpus-based collocation measures
 		\end{itemize}
 		\item[$\rightarrow$] \textbf{Taboo player}
@@ -131,14 +132,39 @@
 % -------------------------------------
 
 \begin{frame}{Part 1: The card generator}
+
+\begin{columns}
 	
-\begin{itemize}
-	\item gold standard development based on existing Taboo cards
-	\item narrowing scope: not striving to replicate cultural references; focusing on semantic similarity and collocations
-	\item collocation measures from Evert2009
-	\item show some results, like the plot of semantic similarity scores
-\end{itemize}
+	\begin{column}{0.6\textwidth}
+
+	\begin{enumerate}
+		\item \textbf{Gold standard development} from existing Taboo cards
+		\begin{itemize}
+			\item manually categorise taboo words on cards
+			\item apply quantitative measures to get target values
+		\end{itemize}
+		\item \textbf{Taboo word generation} for a given main word
+		\begin{itemize}
+			\item five final words selected randomly from pool of gold-standard-compatible words 
+		\end{itemize}
+	\end{enumerate}
+
+	\end{column}
 	
+	\begin{column}{0.4\textwidth}
+		
+		\begin{center}
+			\includegraphics[width=\linewidth]{cards.jpg}
+		\end{center}
+	
+		
+		\vspace{\baselineskip}
+		\hfill {\tiny \href{https://www.amazon.com/Hasbro-Gaming-Buzzer-Amazon-Exclusive/dp/B06XYL6Y5C}{(image source)} }
+		
+	\end{column}
+	
+\end{columns}
+
 \end{frame}
 
 % ----------------------------------------------
@@ -148,8 +174,8 @@
 	
 	\begin{itemize}
 		\item NN to generate text (RNN with LSTM architecture)
-		\item how to prevent TWs from appearing in output: retroactive correction
-		\item if the generated text includes a taboo word, replace with a synoynm
+		\item idea: start with e.g.\ ``a [main word] is a'' to get NN on the right track
+		\item how to prevent TWs from appearing in output: retroactive correction (if the generated text includes a taboo word, replace with a synoynm)
 		\item will implement using PyTorch
 	\end{itemize}
 	

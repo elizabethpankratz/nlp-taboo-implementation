@@ -1,8 +1,7 @@
-semrel_synonym		1 if the meaning is the same
-semrel_antonym		1 if the meaning is opposite
-semrel_hyponym		1 if the meaning of the TW is a hyponym (a more specific version) of the MW
-semrel_hypernym		1 if the meaning of the TW is a hypernym (a more general version) of the MW
-similar_but_not_synonym 1 if the meaning is related and somehow in the same realm as the MW, but they cannot be considered synonyms (pretty subjective) 
-collocation		1 if the words often co-occur in natural language use in the same sentence / span of words
-cultural_ref		1 for either the MW or the TW being references to real people, pop culture things, non-linguistic knowledge (the ones we don't need to replicate)
-other			1 if it belongs to none of the other categories :D 
+semrel_synonym    1 if the meaning is the same
+semrel_antonym    1 if the meaning is opposite
+semrel_hyponym    1 if the meaning of the TW is a hyponym (a more specific version) of the MW
+semrel_hypernym   1 if the meaning of the TW is a hypernym (a more general version) of the MW
+collocation       1 if the words often co-occur in natural language use in the same sentence / span of words
+cultural_ref		  1 for either the MW or the TW being references to real people, pop culture things, non-linguistic knowledge (the ones we don't need to replicate)
+other             1 if it belongs to none of the other categories :D

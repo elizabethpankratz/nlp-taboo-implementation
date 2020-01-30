@@ -113,9 +113,8 @@
 	\begin{itemize}
 		\item[$\rightarrow$] \textbf{Taboo card generator}
 		\begin{itemize}
-			\item gensim word embeddings
-			\item WordNet
-			\item corpus-based collocation measures
+			\item pre-trained word2vec word embeddings
+			\item WordNet via NLTK
 		\end{itemize}
 		\item[$\rightarrow$] \textbf{Taboo player}
 		\begin{itemize}
@@ -140,8 +139,7 @@
 	\begin{enumerate}
 		\item \textbf{Gold standard development} from existing Taboo cards
 		\begin{itemize}
-			\item manually categorise taboo words on cards
-			\item apply quantitative measures to get target values
+			\item manually annotate the semantic relations of taboo words to the main word
 		\end{itemize}
 		\item \textbf{Taboo word generation} for a given main word
 		\begin{itemize}

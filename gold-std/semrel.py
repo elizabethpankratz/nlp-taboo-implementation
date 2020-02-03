@@ -1,4 +1,5 @@
 from nltk.corpus import wordnet as wn
+import gensim
 
 def word_to_synsets(word):
     """

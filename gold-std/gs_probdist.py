@@ -1,8 +1,9 @@
 import pandas as pd
-import numpy as np
+import semrel as sr
 
 def cats():
     print('cattttts yes yeah')
+
 
 def read_in(filename):
     """
@@ -19,9 +20,15 @@ def read_in(filename):
 
     return list(enumerate(file_lines))
 
+
 def format_cards(enum_list):
     """
-    Given an enumerated list (output of read_in()), formats the contents as a dictionary (key = MW, values = list of TWs)
+    Formats the contents of an enumerated list containing lines of the read-in file as a list of dictionaries.
+
+    Arg:
+        enum_list: An enumerated list (output of read_in())
+    Returns:
+        A list of dictionaries (key = MW, values = list of TWs)
     """
 
     # Initialise dictionary to contain card data.
@@ -150,40 +157,3 @@ def freq_dist_to_prob_dist(gs_dataframe):
 
     # Convert this to a dictionary and return.
     return dict(prob_dist)
-
-
-def select_one_category(prob_dist_dict):
-    """
-    Given a probability distribution of semantic relation labels, randomly returns one of them, weighted by probability.
-
-    Arg:
-        prob_dist_dict: a dictionary with semantic relation labels as keys and their probability as values
-        (output of freq_dist_to_prob_dist() )
-    Returns:
-        A string corresponding to one semantic relation label.
-    """
-    # For clarity, save keys as labels and values as probabilities.
-    labels = list( prob_dist_dict.keys() )
-    probs = list( prob_dist_dict.values() )
-
-    # Use numpy's .choice() to return a label based on the given weight.
-    return np.random.choice(labels, p=probs)
-
-
-def select_five_categories(prob_dist_dict):
-    """
-    Given a probability distribution of semantic relation labels, randomly returns a list of five of them, weighted
-    by probability.
-
-    Arg:
-        prob_dist_dict: a dictionary with semantic relation labels as keys and their probability as values
-        (output of freq_dist_to_prob_dist() )
-    Returns:
-        A list containing five semantic relation labels (intended as the starting point for each card).
-    """
-    # For clarity, save keys as labels and values as probabilities.
-    labels = list( prob_dist_dict.keys() )
-    probs = list( prob_dist_dict.values() )
-
-    # Use numpy's .choice() to return a label based on the given weight.
-    return list( np.random.choice(labels, 5, p=probs) )

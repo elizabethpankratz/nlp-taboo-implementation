@@ -110,7 +110,7 @@ def make_semrel_dict(word):
     Creates a dictionary that contains all words standing in the given semantic relation to the main word.
 
     Arg:
-        gensim_model: -----
+        gensim_model: The pre-trained word embeddings.
         word: a string like 'cat' (the main word)
     Returns:
         A dictionary with the semantic relations as keys and a set of words that have that relation to all senses
@@ -160,8 +160,9 @@ def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_c
     similar_wds = [lemmatizer.lemmatize( tup[0] ) for tup in similar_tups]
 
     # Now save those words that do not contain the input word.
+    # Also remove any words with underscores in them (these denote multi-word units which we can stay away from)
     filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds)]
-    filtered = set(filtered)
+    filtered = set( [wd for wd in filtered if '_' not in wd])
 
     # Recursive bit: Check if there are at least num_collocates different words in filtered (base case).
     # If not, increase the number of words to check in each recursive iteration by three and run the function again.

@@ -116,3 +116,34 @@ def card_generator(mw, prob_dist_dict, gensim_model):
         tws.extend(collocates)
 
     return {mw: tws}
+
+
+def pretty_print(card):
+    """
+    Pretty-prints an ASCII Taboo card to the screen.
+
+    Arg:
+        card: A dictionary with the main word as the key and a list of five Taboo words as the value.
+    Returns:
+        Nothing. Prints a card.
+    """
+
+    # Assign some useful values to variables to use in printing below.
+    mw = list(card.keys())[0]
+    tws = list( *card.values() )
+    words = tws + list(card.keys())
+
+    # Get length of longest word to appear on the card and use this as orientation for printing.
+    longest = max(len(w) for w in words)
+    width = longest + 8  # between borders
+    hline = ' -----' + '-'*longest + '-----'
+
+    # Print header containing MW.
+    print(hline)
+    print(' |    ' + mw + ' '*(width - len(mw) - 4) + '|')
+    print(hline)
+
+    # Print body containing the five TWs.
+    for tw in tws:
+        print(' |    ' + tw + ' '*(width - len(tw) - 4) + '|')
+    print(hline)

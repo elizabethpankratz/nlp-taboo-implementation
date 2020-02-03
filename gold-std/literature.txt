@@ -42,10 +42,17 @@
   - Evert2009 gives a step-by-step walkthrough of how to identify and score collocations from a given corpus on 1242--1243
   - "effect-size measures do not correct for sampling variation, while significance measures are biased towards high-frequency word pairs with small effect sizes (which tend to be uninteresting from a linguistic point of view)" [1245]{Evert2009}
   - In my own words: the issue with the simple association measures, the ones that don't consider the marginal frequencies of the words overall, is that words that are highly frequent in general can sneak in, regardless of how distinctive they are for the actual node word. One way around returning these words by accident, if the measure turns out to be high, is to reject all stop words or highly frequent `function words`.
-  - 
+  -
 
 [OTHER MEASURES/FACTORS TO CONSIDER]
   - frequency in corpus
   - part of speech
   - whether MW is normally the f_1 or f_2 of the word pair
   -
+
+[ELIZABETH BRAINSTORM]
+  - In the end, computing semantic similarity for the collocates might be interesting as a curiosity, but probably can't actually be used in generating the Taboo cards, because we can't search for words whose similarities fall into a given range using gensim (it's only possible to go the other way, from words to similarities, not from similarities to words)
+  - One idea was to treat the distribution of semantic similarity values like a Bayesian posterior, and then draw samples from it proportional to its density and try to find words within the given range of similarity to the MW
+  - **Problem with that: can't return words by their vector similarity;** you need the words first to compute the similarity values.
+  - So, maybe better just to rely on the classification for rough proportions of how much of each type of relation to the MW should go into the pool to choose from, and then just pick from the most similar words from `model.most_similar()`
+  - and then treat the proportions of semantic relations as a bayesian posterior

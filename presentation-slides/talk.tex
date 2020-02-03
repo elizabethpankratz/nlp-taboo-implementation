@@ -108,7 +108,7 @@
 
 \begin{column}{0.5\textwidth}
 
-	We plan to implement two components of the gameplay:
+	We are implementing two components of the gameplay:
 	
 	\begin{itemize}
 		\item[$\rightarrow$] \textbf{Taboo card generator}
@@ -144,13 +144,14 @@
 		\end{itemize}
 		\item \textbf{Taboo word generation} for a given main word
 		\begin{itemize}
-			\item five words selected based on probability distribution from gold standard
+			\item five words based on probability distribution from gold standard
 		\end{itemize}
 	\end{enumerate}
 
 	\end{column}
 	
 	\begin{column}{0.5\textwidth}
+		
 		
 		\begin{center}
 			\includegraphics[width=.9\linewidth]{cards.jpg}
@@ -168,12 +169,40 @@
 
 % -------------------------------------
 
-\begin{frame}{Part 1: The card generator}
+\begin{frame}[fragile]{Part 1: The card generator}
 
-				
+
+
+\begin{columns}
+	
+\begin{column}{0.65\textwidth}
+
 \begin{center}
-	\includegraphics[width=.8\linewidth]{freq_plot.pdf}
+	\includegraphics[width=\linewidth]{freq_plot.pdf}
 \end{center}
+
+\end{column}
+
+\begin{column}{0.35\textwidth}
+
+\vspace{-\baselineskip}
+
+{\scriptsize
+\begin{semiverbatim}
+---------------------
+|   taboo           |
+---------------------
+|   stigma          |
+|   verboten        |
+|   touchy          |
+|   forbidden       |
+|   unmentionable   |
+---------------------
+\end{semiverbatim}
+}
+\end{column}
+
+\end{columns}
 
 \end{frame}
 

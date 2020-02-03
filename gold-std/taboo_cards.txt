@@ -232,7 +232,7 @@ conductor
 bald
 -head
 -hair
--yul Brenner
+-yul brenner
 -rug
 -toupee
 
@@ -360,7 +360,7 @@ trophy
 -prize
 -award
 -win
-sports
+-sports
 
 harvest
 -fall

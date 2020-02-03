@@ -132,32 +132,39 @@
 
 \begin{frame}{Part 1: The card generator}
 
-\begin{columns}
+\begin{columns}[t]
 	
-	\begin{column}{0.6\textwidth}
+	\begin{column}{0.5\textwidth}
+
+	\vspace{1.5\baselineskip}
 
 	\begin{enumerate}
-		\item \textbf{Gold standard development} from existing Taboo cards
+		\item \textbf{Gold standard} from existing Taboo cards
 		\begin{itemize}
-			\item manually annotate the semantic relations of taboo words to the main word
+			\item semantic relations manually annotated
 		\end{itemize}
 		\item \textbf{Taboo word generation} for a given main word
 		\begin{itemize}
-			\item five final words selected randomly from pool of gold-standard-compatible words 
+			\item five words selected based on probability distribution from gold standard
 		\end{itemize}
 	\end{enumerate}
 
 	\end{column}
 	
-	\begin{column}{0.4\textwidth}
+	\begin{column}{0.5\textwidth}
 		
 		\begin{center}
-			\includegraphics[width=\linewidth]{cards.jpg}
+			\includegraphics[width=.55\linewidth]{cards.jpg}
+			
+		\hfill {\tiny \href{https://www.amazon.com/Hasbro-Gaming-Buzzer-Amazon-Exclusive/dp/B06XYL6Y5C}{(image source)} }
+		\vspace{.5\baselineskip}
+		
+			\includegraphics[width=.8\linewidth]{freq_plot.pdf}
 		\end{center}
 	
 		
 		\vspace{\baselineskip}
-		\hfill {\tiny \href{https://www.amazon.com/Hasbro-Gaming-Buzzer-Amazon-Exclusive/dp/B06XYL6Y5C}{(image source)} }
+
 		
 	\end{column}
 	

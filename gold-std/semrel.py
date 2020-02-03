@@ -119,10 +119,10 @@ def make_semrel_dict(word):
 
     # Initialise dictionary (and we can get synonyms right away).
     semrel_dict = {
-        'synonym': get_synonyms(word),
-        'antonym': set(),
-        'hypernym': set(),
-        'hyponym': set()
+        'semrel_synonym': get_synonyms(word),
+        'semrel_antonym': set(),
+        'semrel_hypernym': set(),
+        'semrel_hyponym': set()
     }
 
     # Convert the input word to all of its synsets.
@@ -131,11 +131,12 @@ def make_semrel_dict(word):
     # Go through each synset, determining its antonyms, hypernyms, and hyponyms, and adding each to the set in the
     # appropriate entry of the dictionary, as long as the main word does not appear as part of any of those strings.
     for s in ss:
-        semrel_dict['antonym'].update( [w for w in get_antonyms(s) if word not in w] )
-        semrel_dict['hypernym'].update( [w for w in get_hypernyms(s) if word not in w] )
-        semrel_dict['hyponym'].update( [w for w in get_hyponyms(s) if word not in w] )
+        semrel_dict['semrel_antonym'].update( [w for w in get_antonyms(s) if word not in w] )
+        semrel_dict['semrel_hypernym'].update( [w for w in get_hypernyms(s) if word not in w] )
+        semrel_dict['semrel_hyponym'].update( [w for w in get_hyponyms(s) if word not in w] )
 
     return semrel_dict
+
 
 def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_check = 10):
     """

@@ -12,5 +12,6 @@ model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-nega
 print('Model loaded :)\n')
 
 c = cg.card_generator(MAINWORD, probdist_dict, model)
+cg.pretty_print(c)
 
 # can run this from the command line :)

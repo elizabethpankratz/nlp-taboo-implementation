@@ -137,14 +137,14 @@ def make_semrel_dict(word):
 
     return semrel_dict
 
-
-def get_collocations(gensim_model, word, num_collocates, num_to_check = 10):
+def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_check = 10):
     """
     Returns minimum num_collocates most similar words to the given word based on gensim word embeddings.
 
     Arg:
-        gensim_model: The pre-trained word embeddings, loaded in word2vec format.
         word: A string representing the main word.
+        forbidden_wds: A set containing words as strings that may not be included as output.
+        gensim_model: The pre-trained word embeddings.
         num_collocates: An integer, the number of collocates to generate.
         num_to_check: (default 10) the number of most similar words to begin with.
     Returns:
@@ -159,14 +159,15 @@ def get_collocations(gensim_model, word, num_collocates, num_to_check = 10):
     similar_wds = [lemmatizer.lemmatize( tup[0] ) for tup in similar_tups]
 
     # Now save those words that do not contain the input word.
-    filtered = [wd for wd in similar_wds if word not in wd.lower()]
+    filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds)]
+    filtered = set(filtered)
 
     # Recursive bit: Check if there are at least num_collocates different words in filtered (base case).
     # If not, increase the number of words to check in each recursive iteration by three and run the function again.
     # Will stop once there are minimum num_collocates words in filtered.
 
     if len(filtered) >= num_collocates:
-        return set(filtered)
+        return filtered
     else:
         num_to_check += 3
-        return get_collocations(gensim_model, word, num_collocates, num_to_check)
+        return get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_check)

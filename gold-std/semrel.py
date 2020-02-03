@@ -1,5 +1,5 @@
 from nltk.corpus import wordnet as wn
-import gensim
+from nltk.stem import WordNetLemmatizer
 
 def word_to_synsets(word):
     """
@@ -96,14 +96,22 @@ def get_synonyms(word):
         syn = lemma_list[0].name().lower()
         synonym_set.update( [syn] )
 
-    # Return the synonym set with the input word removed.
-    return synonym_set.difference({word})
+    # Remove from the synonym set the input word and any words that also contain the input word and return.
+    to_rm = set()
+    for synonym in synonym_set:
+        if synonym == word or word in synonym:
+            to_rm.update({synonym})
+
+    return synonym_set.difference(to_rm)
 
 
 def make_semrel_dict(word):
     """
+    Creates a dictionary that contains all words standing in the given semantic relation to the main word.
+
     Arg:
-        word: a string like 'cat'
+        gensim_model: -----
+        word: a string like 'cat' (the main word)
     Returns:
         A dictionary with the semantic relations as keys and a set of words that have that relation to all senses
         of the input word, according to WordNet, as values.
@@ -121,10 +129,44 @@ def make_semrel_dict(word):
     ss = word_to_synsets(word)
 
     # Go through each synset, determining its antonyms, hypernyms, and hyponyms, and adding each to the set in the
-    # appropriate entry of the dictionary.
+    # appropriate entry of the dictionary, as long as the main word does not appear as part of any of those strings.
     for s in ss:
-        semrel_dict['antonym'].update( get_antonyms(s) )
-        semrel_dict['hypernym'].update( get_hypernyms(s) )
-        semrel_dict['hyponym'].update( get_hyponyms(s) )
+        semrel_dict['antonym'].update( [w for w in get_antonyms(s) if word not in w] )
+        semrel_dict['hypernym'].update( [w for w in get_hypernyms(s) if word not in w] )
+        semrel_dict['hyponym'].update( [w for w in get_hyponyms(s) if word not in w] )
 
     return semrel_dict
+
+
+def get_collocations(gensim_model, word, num_collocates, num_to_check = 10):
+    """
+    Returns minimum num_collocates most similar words to the given word based on gensim word embeddings.
+
+    Arg:
+        gensim_model: The pre-trained word embeddings, loaded in word2vec format.
+        word: A string representing the main word.
+        num_collocates: An integer, the number of collocates to generate.
+        num_to_check: (default 10) the number of most similar words to begin with.
+    Returns:
+        A list of collocated words as strings.
+    """
+
+    lemmatizer = WordNetLemmatizer()
+
+    # Use gensim's most_similar() function to get the (initially ten) words whose embeddings are most similar to the
+    # input word's. Lemmatise the words to remove plural/other inflections.
+    similar_tups = gensim_model.most_similar(word, topn=num_to_check)
+    similar_wds = [lemmatizer.lemmatize( tup[0] ) for tup in similar_tups]
+
+    # Now save those words that do not contain the input word.
+    filtered = [wd for wd in similar_wds if word not in wd.lower()]
+
+    # Recursive bit: Check if there are at least num_collocates different words in filtered (base case).
+    # If not, increase the number of words to check in each recursive iteration by three and run the function again.
+    # Will stop once there are minimum num_collocates words in filtered.
+
+    if len(filtered) >= num_collocates:
+        return set(filtered)
+    else:
+        num_to_check += 3
+        return get_collocations(gensim_model, word, num_collocates, num_to_check)

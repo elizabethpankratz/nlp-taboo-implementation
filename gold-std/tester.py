@@ -1,6 +1,7 @@
 import gs_probdist as gspd
 import semrel as sr
 import cardgen as cg
+import gensim
 
 MAINWORD = 'victory'
 

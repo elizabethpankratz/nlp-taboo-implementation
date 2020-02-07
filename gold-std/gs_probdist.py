@@ -133,7 +133,7 @@ def plot_category_freqs(gs_dataframe):
 
     # To save the figure, convert to a "figure" object and then export as pdf
     fig = gs_df_sum_plot.get_figure()
-    fig.savefig('freq_plot_xxx.pdf', bbox_inches='tight')
+    fig.savefig('freq_plot.pdf', bbox_inches='tight')
 
 
 def freq_dist_to_prob_dist(gs_dataframe):

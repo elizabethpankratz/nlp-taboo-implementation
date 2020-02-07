@@ -147,3 +147,36 @@ def pretty_print(card):
     for tw in tws:
         print(' |    ' + tw + ' '*(width - len(tw) - 4) + '|')
     print(hline)
+
+
+def get_gold_probdist():
+    """
+    Creates a probability distribution based on the frequency distribution of the semantic categories in the
+    manually annotated csv 'gold-std-categorised.csv' saved in the current directory.
+
+    Returns:
+        A dictionary whose keys are the five semantic relations and whose values are their probabilities.
+    """
+
+    # Read in the dataset as a pandas dataframe.
+    card_data_annot = gspd.read_in_categorised()
+
+    # Based on the frequencies of each category in the data, create probability distribution and return.
+    probdist_dict = gspd.freq_dist_to_prob_dist(card_data_annot)
+    return probdist_dict
+
+
+def draw_card(mw, prob_dist_dict, gensim_model):
+    """
+    Generates a Taboo card with one main word and five Taboo words and pretty-prints it.
+
+    Args:
+        mw: A string, the main word to generate the Taboo words for.
+        prob_dist_dict: a dictionary with semantic relation labels as keys and their probability as values
+           (output of freq_dist_to_prob_dist() )
+        gensim_model: The pre-trained word embeddings.
+    Returns:
+        Nothing. Prints a card.
+    """
+    c = card_generator(mw, prob_dist_dict, gensim_model)
+    pretty_print(c)

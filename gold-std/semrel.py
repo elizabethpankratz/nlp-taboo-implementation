@@ -110,7 +110,6 @@ def make_semrel_dict(word):
     Creates a dictionary that contains all words standing in the given semantic relation to the main word.
 
     Arg:
-        gensim_model: The pre-trained word embeddings.
         word: a string like 'cat' (the main word)
     Returns:
         A dictionary with the semantic relations as keys and a set of words that have that relation to all senses

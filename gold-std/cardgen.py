@@ -1,6 +1,5 @@
 import gs_probdist as gspd
 import semrel as sr
-import gensim
 import pandas as pd
 import numpy as np
 import random as rd

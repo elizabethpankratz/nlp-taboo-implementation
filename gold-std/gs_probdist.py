@@ -1,8 +1,4 @@
 import pandas as pd
-import semrel as sr
-
-def cats():
-    print('cattttts yes yeah')
 
 
 def read_in(filename):

@@ -1,5 +1,6 @@
 from nltk.corpus import wordnet as wn
 from nltk.stem import WordNetLemmatizer
+from nltk.metrics import edit_distance
 
 def word_to_synsets(word):
     """
@@ -158,14 +159,13 @@ def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_c
     similar_tups = gensim_model.most_similar(word, topn=num_to_check)
     similar_wds = [lemmatizer.lemmatize( tup[0] ) for tup in similar_tups]
 
-    # Now save those words that do not contain the input word.
-    # Also remove any words with underscores in them (these denote multi-word units which we can stay away from)
-    filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds)]
-    filtered = set( [wd for wd in filtered if '_' not in wd])
-
-    # TODO: Add Levenshtein distance here
-    # Disqualify any words that have a levenshtein distance <4? This should disqualify typos and other inflected forms of the MW
-    
+    # Now save only a subset of those similar words, namely the ones that:
+    # - do not contain the main word
+    # - are not in the passed-in set of forbidden words
+    # - have a Levenshtein distance of up to 3 from the MW (i.e. are similar, probably typos)
+    # - words with underscores in them, indicating multi-word units (often weird)
+    filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds and edit_distance(word, wd) > 4 and '_' not in wd)]
+    filtered = set(filtered)
 
     # Recursive bit: Check if there are at least num_collocates different words in filtered (base case).
     # If not, increase the number of words to check in each recursive iteration by three and run the function again.

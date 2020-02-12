@@ -180,5 +180,4 @@ def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_c
             return get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_check)
 
     except KeyError:  # arises when input word not in vocab
-        print('Word not available; please choose another.')
         pass

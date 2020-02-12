@@ -78,6 +78,11 @@ def card_generator(mw, prob_dist_dict, gensim_model):
         A dictionary with main word as key and a list of five taboo words as values.
     """
 
+    # First things first: make sure that the word is actually in the word2vec vocab.
+    # word_vectors = gensim_model.wv
+    if mw not in gensim_model.wv.vocab:
+        return False
+
     # Generate five categories with the weighted probabilities based on their frequency in the gold standard data.
     five_semrels_list = select_five_categories(prob_dist_dict)
     five_semrels = pd.Series(five_semrels_list)
@@ -122,10 +127,17 @@ def pretty_print(card):
     Pretty-prints an ASCII Taboo card to the screen.
 
     Arg:
-        card: A dictionary with the main word as the key and a list of five Taboo words as the value.
+        card: A dictionary with the main word as the key and a list of five Taboo words as the value (or False, if main word wasn't in word2vec vocab)
     Returns:
         Nothing. Prints a card.
     """
+
+    # If word not in word2vec vocab, then card's value is just False. Check if that's the case.
+    if not card:
+        print('Sorry, no card can be generated for this word! Please choose another.')
+        return None
+
+    # If the card does have some value, we continue on...
 
     # Assign some useful values to variables to use in printing below.
     mw = list(card.keys())[0]

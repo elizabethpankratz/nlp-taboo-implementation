@@ -156,23 +156,29 @@ def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_c
 
     # Use gensim's most_similar() function to get the (initially ten) words whose embeddings are most similar to the
     # input word's. Lemmatise the words to remove plural/other inflections.
-    similar_tups = gensim_model.most_similar(word, topn=num_to_check)
-    similar_wds = [lemmatizer.lemmatize( tup[0] ) for tup in similar_tups]
 
-    # Now save only a subset of those similar words, namely the ones that:
-    # - do not contain the main word
-    # - are not in the passed-in set of forbidden words
-    # - have a Levenshtein distance of up to 3 from the MW (i.e. are similar, probably typos)
-    # - words with underscores in them, indicating multi-word units (often pretty weird)
-    filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds and edit_distance(word, wd) > 4 and '_' not in wd)]
-    filtered = set(filtered)
+    try:  # If the MW is in the word2vec vocabulary
+        similar_tups = gensim_model.most_similar(word, topn=num_to_check)
+        similar_wds = [lemmatizer.lemmatize( tup[0] ) for tup in similar_tups]
 
-    # Recursive bit: Check if there are at least num_collocates different words in filtered (base case).
-    # If not, increase the number of words to check in each recursive iteration by three and run the function again.
-    # Will stop once there are minimum num_collocates words in filtered.
+        # Now save only a subset of those similar words, namely the ones that:
+        # - do not contain the main word
+        # - are not in the passed-in set of forbidden words
+        # - have a Levenshtein distance of up to 3 from the MW (i.e. are similar, probably typos)
+        # - words with underscores in them, indicating multi-word units (often pretty weird)
+        filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds and edit_distance(word, wd) > 4 and '_' not in wd)]
+        filtered = set(filtered)
 
-    if len(filtered) >= num_collocates:
-        return filtered
-    else:
-        num_to_check += 3
-        return get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_check)
+        # Recursive bit: Check if there are at least num_collocates different words in filtered (base case).
+        # If not, increase the number of words to check in each recursive iteration by three and run the function again.
+        # Will stop once there are minimum num_collocates words in filtered.
+
+        if len(filtered) >= num_collocates:
+            return filtered
+        else:
+            num_to_check += 3
+            return get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_check)
+
+    except KeyError:  # arises when input word not in vocab
+        print('Word not available; please choose another.')
+        pass

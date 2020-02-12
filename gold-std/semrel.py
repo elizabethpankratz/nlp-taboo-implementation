@@ -163,7 +163,7 @@ def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_c
     # - do not contain the main word
     # - are not in the passed-in set of forbidden words
     # - have a Levenshtein distance of up to 3 from the MW (i.e. are similar, probably typos)
-    # - words with underscores in them, indicating multi-word units (often weird)
+    # - words with underscores in them, indicating multi-word units (often pretty weird)
     filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds and edit_distance(word, wd) > 4 and '_' not in wd)]
     filtered = set(filtered)
 

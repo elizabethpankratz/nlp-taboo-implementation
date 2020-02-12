@@ -163,6 +163,10 @@ def get_collocations(word, forbidden_wds, gensim_model, num_collocates, num_to_c
     filtered = [wd for wd in similar_wds if (word not in wd.lower() and wd not in forbidden_wds)]
     filtered = set( [wd for wd in filtered if '_' not in wd])
 
+    # TODO: Add Levenshtein distance here
+    # Disqualify any words that have a levenshtein distance <4? This should disqualify typos and other inflected forms of the MW
+    
+
     # Recursive bit: Check if there are at least num_collocates different words in filtered (base case).
     # If not, increase the number of words to check in each recursive iteration by three and run the function again.
     # Will stop once there are minimum num_collocates words in filtered.

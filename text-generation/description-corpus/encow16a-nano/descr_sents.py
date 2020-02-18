@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+# NOTE: Must be run on the RStudio server of webcorpora.org
 # Spring 2020
 # Creating a corpus of descriptive sentences to train a neural network on for ANLP final project.
 
@@ -7,7 +8,7 @@ from SeaCOW import Query, ConcordanceWriter, DependencyBuilder
 
 
 def sent_query_csv(cql_string, csv_filename):
-  
+
   # Create a Query object and set whatever needs to be set.
   q = Query()
   q.corpus          = 'encow16a-nano'         # Lower-case name of the corpus to use.
@@ -18,10 +19,10 @@ def sent_query_csv(cql_string, csv_filename):
   q.references      = ['doc.url']
                                               # Which reference attributes (of structures) to export.
   q.container       = 's'                     # Which container strutcure should be exported?
-  
+
   # This enables an efficient duplicate remover using a scaling Bloom filter.
   q.set_deduplication()
-  
+
   # Create a Processor object and attach it to the Query object.
   # The ConcordanceWriter processor just writes a nice CSV file
   # containing your concordance, incl. all meta data you need

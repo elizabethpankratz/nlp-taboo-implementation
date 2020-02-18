@@ -1,0 +1,63 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="be"][word="related"][word="to"]
+# CORPUS:        encow16a-nano
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://nearlylegal.co.uk/blog/2008/03/dda-and-mandatory-possession	The landlord had a statutory mandatory ground for possession On the facts , S had not claimed that	a disability was related to	non payment of rent .
+http://www.nissangtir.co.uk/articles-full.asp?art=24	The grip available from	a tire is related to	the area of the tire in contact with the road and the weight being carried by that tire at the time .
+http://www.publications.parliament.uk/pa/ld201012/ldselect/ldsctech/179/17905.htm	Some witnesses suggested that the ethical acceptability of	an intervention was related to	its level of public acceptance , or popularity , or even the degree to which its use was based on " public permission " .
+http://www.blacksunjournal.com/religion/1252_christian-hate-from-the-mailbag_2008.html	I know Christians who behave as you describe , unfortunately	a couple are related to	me .
+http://www.herefordshire.gov.uk/factsandfigures/1173.aspx	The oral health of	a population is related to	a range of factors including socio-economic conditions and there is an established relationship between poor oral health and deprivation .
+http://ctb.ku.edu/en/table-of-contents/finances/grants-and-financial-resources/writing-a-grant/main		An abstract is related to	, but different from , the letter of intent .
+http://englishtafsir.com/Quran/22/index.html		A parable is related to	you : so listen to it .
+http://www.sonic.net/%7En6gn/hr88/a2/article2.html	In a well-designed oscillator the " cleanliness " of	a signal is related to	its operating frequency .
+http://www.articles.scopulus.co.uk/Choosing%20a%20Trademark%20-%20A%20Couple%20of%20Important%20Considerations.htm	Typically , the strength of	a trademark is related to	the category in which it falls .
+http://endodonticsjournal.com/articles/159/1/Factors-influencing-the-fracture-of-nickel-titanium-rotary-instruments/Page1.html/print/159	The life expectancy of	an instrument is related to	a specific number of rotary cycles ( Yared et al. 1999 ) .
+http://spanish.about.com/library/weekly/aa082800a.htm	As you might expect , many of the words distinctive to Peruvian Spanish that you 're likely to come across as	a tourist are related to	food .
+http://www.unc.edu/~rowlett/units/dictS.html	This law says that the volume V of	a gas is related to	its temperature T and pressure P by the formula PV = nRT , where n is the number of moles of gas present and the gas constant R equals 8.314 joules per mole per kelvin .
+http://orderstatistic.wordpress.com/2014/03/21/why-are-physicists-drawn-to-economics	Then , by asking an abstract question in turn ( what prices would mean that no trade occurs from initial positions ) , insight is gained as to how the fundamental value of	an asset is related to	its price .
+http://www.bbc.co.uk/blogs/technology/2009/04	In Sweden , countered the man from Apple , the levy on	an iPod was related to	its capacity - and with Moore 's Law continuing to operate , that meant the cost was rising to ridiculous levels .
+http://eric.themoritzfamily.com/how-berylxgl-and-deskbar-simplified-my-life.html	When it applies to the mouse cursor , Fitts ' law says that the time to hit	a target is related to	the target 's size and the distance from the starting point .
+http://blog.echurchwebsites.org.uk/2012/05/11/absolutely-outrageous-advertising-standards-authority-persecutes-cranmer	Accordingly , the mores of the institutions intended for the two sorts of relationship need to be different : eg the bindingness and exclusivity of	a marriage are related to	the ease of pregnancy ; no such comparable requirements are necessary in a same sex relationship .
+http://www.elec.york.ac.uk/research/audio/voice.html	Physical attributes of sounds have correlates in the perceptual domain , for example the fundamental frequency and amplitude of	a sound are related to	its perceived pitch and loudness .
+http://plato.stanford.edu/entries/plato-metaphysics	Call this way in which	a Form is related to	the property it is ' Being ' .
+http://www.onlineclarity.co.uk/friends/archive/index.php/t-8939.html	Wonder if the western myth of a baby arriving carried by	a crane is related to	that ?
+http://bytes.com/topic/c/answers/487848-void-pointer-breaking-symmetry	And indeed , the length of C source code is strongly related to the number of Assembler instructions generated in the end ( as your example demonstrated non-voluntarily ;-) , and the number of Assembler instructions needed to reach	a goal is related to	an architectures efficiency .
+http://gbhsweb.glenbrook225.org/gbs/science/phys/Class/estatics/u8l3d.html	The charge on	an object is related to	the number of excess ( or deficient ) electrons in the object .
+http://www.motherjones.com/mojo/2013/10	While the bill 's language amends the statute to prevent the NSA from hoovering up phone metadata en masse , it provides gaping loopholes that could allow the agency to continue with its bulk collection practices as usual , such as if there 's a " reasonable articulable suspicion " that	an investigation is related to	international terrorism .
+http://www.bu.edu/wcp/Papers/Meta/MetaTull.htm	The elements comprising	a picture are related to	each other in a determinate way : " A picture is a fact " .
+http://tripleweeds.tumblr.com	If you have Java installed the RxNAV app helps you understand how the different semantic forms of	a drug are related to	each other .
+http://add.about.com/od/adhdinadults/a/Overcoming-Chronic-Procrastination.htm	If your avoidance of	a task is related to	not feeling competent to work on that task , seek the necessary training you need .
+http://cnnfn.cnn.com/2014/05/26/news/companies/pfizer-astrazeneca-deal/index.html	One factor driving Pfizer to pursue	a takeover was related to	taxes .
+http://ausweb.scu.edu.au/aw07/papers/refereed/lui/paper.html	The number of out-links from	a site is related to	its hubness .
+http://www.quirksmode.org/dom/intro.html	The DOM is a Document Object Model , a model of how the various objects of	a document are related to	each other .
+http://home.cc.umanitoba.ca/~thompso4	The health of	a community is related to	its social , economic , political , and environmental circumstances : " The social conditions in which people live powerfully influence their chances to be healthy .
+http://www.criminallawandjustice.co.uk/index.php?/Analysis/criminal-trials-the-reliability-of-evidence-part-2.html	( b ) Witnesses features How	an event is related to	a witness 's motivations , attitudes or interests may affect the strength of a memory .
+http://www.yourrights.org.uk/yourrights/rights-of-victims-and-witnesses/if-the-victim-is-young.shtml	Media in relation to cases involving children The Press Complaints Commission 's Code of Practice states that the press must not identify children under the age of 16 who are involved in cases concerning sexual offences , whether as victims or as witnesses , nor allow them to be identified by stating that	a child is related to	a named offender .
+http://www.insidehousing.co.uk/home/tenancies/councils-face-%C2%A325m-loss-through-bedroom-tax/6527672.article	I ca n't recall	a murder being related to	the Poll Tax .
+http://forum.wingmakers.co.uk/viewtopic.php?f=6%26t=838%26sid=d7d219b2c367bb618120104a212031c0	As the dictionary attempts to explain to us , the primary definition of	a miracle is related to	something extraordinary , something far beyond the normal course of events in ordinary life , something inspiring perhaps and amazing certainly .
+http://healthvermont.gov/news/2011/091011_irene_contamination.aspx	Chen said , about half of the hazards after	a flood are related to	injuries rather than illness , such as injuries from power tools , slips and falls , electrocution and carbon monoxide exposure .
+http://pjmedia.com/lifestyle/2013/12/09/3-reasons-why-our-teenagers-cant-find-jobs/?singlepage=true	The value of	a job is related to	how much education it takes to perform the job .
+http://earthquake.usgs.gov/hazards/qfaults/glossary.php	The magnitude of	an earthquake is related to	the total energy released by the event ; an earthquake has only a single magnitude value .
+http://ada-audio.org/Archives/ADALegal/index.php?type=transcript%26id=2010-06-02%26app=2	We had one case here where	a coworker was related to	a doctor who someone saw and then the doctor revealed the information to the relative who 's the coworker and we thought that certainly raised HIPAA concerns .
+http://eurogene.open.ac.uk/search03/%22Jewish%5Bterm%5D%5Bumls%5D%22?page=2	Some FMF patients present higher IgD serum levels , and it is not yet known whether such	an elevation is related to	specifi ...
+http://home.alphalink.com.au/%7Eradnat/spengler/pessimism.htm	At the risk of being taken too literally , I would say that my way of looking at the world is related to the " systematic " way as the memoirs of	a statesman are related to	the ideal state of a utopian .
+http://phenomena.nationalgeographic.com/2013/05/07/charlemagnes-dna-and-our-universal-royalty	What is important is how closely	a person is related to	another person .
+http://www.steptwo.com.au/columntwo/bring-passion-to-your-intranet	The opportunity for progression in	a job is related to	the nature of the job role , and the effectiveness of the individual 's direct manager .
+# = STATS =============================================================
+# HITS:          41
+# DUPLICATES:    1
+# QUERY TIME:    2020-02-18 09:01:11
+# ELAPSED:       5.32732796669 s
+# =====================================================================

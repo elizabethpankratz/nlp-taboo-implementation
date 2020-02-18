@@ -1,0 +1,65 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="sound" & tag!="N*"][lemma="like"]
+# CORPUS:        encow16a-nano
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://www.poetrymagazines.org.uk/magazine/record.asp?id=4023	It 's part of an intricately pattern wall over-looking a courtyard where peacocks walk , their tails making a shushing sound on the floor which is also tiled in black and white around a basin where	a fountain sounds like	silver coins chinked in the pocket of a man wishing on the new moon .
+http://heifer12x12.com/tag/cows	For someone like me who thinks a cat requires far too much attention , raising	a cow sounds like	an inconceivable amount of work .
+http://jonsobel.com/?cat=5%26paged=4	Demonstrating that one is a triple threat in a theater the size of	a closet sounds like	a tough task .
+http://www.adriandenning.co.uk/waits.html	Tom really gets into the character of the song ,	a song sounding like	a sixty year old woman - a woman who used to be a hooker in her younger days - lamenting the lack of ' a good man ' .
+http://www.dogpages.org.uk/forums/lofiversion/index.php?t234946.html	Happy Happy Birthday lovely Sprout you are more than a little bit handsome and make me thing I too would like	a sprout Sounds like	you day is going to be fabulous enjoy yourself at PAH and McDonalds and wishing you many many more lovely memory making days in fact years , to come .
+http://www.doctorwhoreviews.co.uk/J.htm	Writer Louis Marks really put some thought into telling his story from one inch high , adding some lovely touches such as	a gunshot sounding like	an almighty explosion , a corroded drain pipe managing to be a means of escape , and the voices down the other end of a telephone sounding like a dull roar .
+http://www.kiwiblog.co.nz/2012/11/labour_is_promising_a_new_house_every_13_minutes_of_the_working_week.html	I 've seen this argument rolled out a few times now and it still palls 10,000 homes	a year sounds like	alot until you realise that at the moment we are building about 15,000 new homes a month , in 2007 it was about 26,000 a month .
+http://www.sheffieldforum.co.uk/archive/index.php/t-57712.html		A book sounds like	a great idea , although most of the adults that were affected by it will probably have passed on by now .
+http://www.civilsociety.co.uk/governance/blogs/user/Paul%20Amadi/content/9362/time_for_fundraising_and_charity_organisations_to_merge	But £ 100,000	a year sounds like	a lot .
+http://www.writerspace.com/chat/transcripts/chat090302sim.html	Mia is bound and determined to be his captive JeanieLondon - Now	a cowgirl sounds like	fun !
+http://www.electricalknowledge.com/forum/archives/3442.asp	Other wise the FA to	an RE sounds like	the next best solution .
+http://www.therevival.co.uk/forum/general/5679	A week spent in orbit delivered from	a ICBM sounds like	fun .
+http://europe.amateurtraveler.com/travel-to-toulouse-france-podcast	This small and relatively unknown treasures are worthy of our attention and	a visit sounds like	a good idea .
+http://pitchfork.com/features/staff-lists/9292-albums-of-the-year-honorable-mention	Talking about his remix of Nathan Fake 's 2004 single " The Sky Was Pink " , he 's said , " These people who 've made rip-offs of that track for	a career-that sounds like	a punishment that happens in Greek hell , being one of these cunts who has to re-manufacture the same thing over and over again .
+http://justeat.in/blog/category/blogroll	A typical excuse for getting	a salad sounds like	this , " It 's a light satisfying meal " " It 's too hot to eat anything else " " I 'm getting all my nutrients for the day !
+http://blogs.findlaw.com/legalgrounds	While running around naked in the mountains for	a day sounds like	a good time , attendees and organizers still need to abide by the law .
+http://www.moreintelligentlife.co.uk/content/ideas/history-a-natural	"	A series sounded like	more fun , but I wanted to shift the focus from me , to look at the changes in natural-history film-making , science and the natural world .
+http://www.thejewishweek.com/features/iengage/point-counter-point-yossi-klein-halevi-4	But a general critique of Israeli policy at such	a moment sounds like	hectoring .
+http://dimpost.wordpress.com/2013/08/16/the-magic-of-jury-duty	A couple of weeks ago I thought the guy who a judge found in contempt for refusing to serve on	a jury sounded like	a douche-bag .
+http://blog.ncaa.org/blog/category/bylawblog	And the idea of the NCAA running such	an office sounds like	a trap for the Association .
+http://www.laney-posse.co.uk/theposse/viewtopic.php?f=5%26t=557%26sid=fdb39a677fe285e1d723ea61d16be745	Before today , my VC 50 , running through a Marshall 1960	A cab sounded like	a hotrodded plexi .
+http://lauralippman.net/the-sony-walkman	Even with a headphone amp , lossless files ( which most people do n't use , ) and excellent speakers or phones , listening to	an iPod sounds like	listening through tinny mud .
+http://www.dooyoo.co.uk/software-for-handhelds-pdas/need-for-speed-undercover-iphone-game/1441766	Taking a car to	a garage sounds like	a walk in the park ... although a walk in the park , it is not .
+http://www.greenbuildingforum.co.uk/newforum/comments.php?DiscussionID=7675	I had n't got very far with thinking about heat exchangers , but not needing	a pump sounds like	a good argument for a coil .
+http://www.greenbuildingforum.co.uk/newforum/comments.php?DiscussionID=7675		A third sounded like	he knew what he was talking about , but never quoted .
+http://www.rmtbristol.org.uk/2009/06/woman_is_killed_in_illinois_tr.html	" At first , I thought it was a tornado , " he said , " because they always say	a tornado sounds like	a train coming .
+http://www.singing-teachers.co.uk/courses/mod/forum/discuss.php?d=275	I live in Bognor Regis so I know what	a seagull sounds like	.
+http://freakytrigger.co.uk/ft/2009/01/the-specials-ghost-town/?cp=0	The winds howl over the tenements of Easterhouse and Castlemilk at its conclusion just as they did over John Leyton 's moors twenty years previously ; as a record it is unparalleled and unequalled , as a number one it is still scarcely believable - did I dream that	a record sounding like	this and saying what it says went to number one ?
+http://thegreatmorel.com/humor.html	Have ya ever been curious as to what	a mushroom sounds like	?
+http://the-tap.blogspot.co.uk/2011/01/camerons-time-could-soon-be-over.html	Taking out the third party and making it into an ally rather than	an opponent sounded like	the perfect strategy - in theory .
+http://www.vwt4forum.co.uk/archive/index.php/t-143625.html	Vw is 2 yr unlimited mileage Recon seem to have 50 k limit I do 30 -40	a year Sounds like	a no brainer if your doing 30 -40 k miles a year .
+http://capitalgainsandgames.com/blog/gordon-adams/2102/defense-budget-realities-and-myths	But I do know what	a blowhard sounds like	.
+http://ccf.georgetown.edu/ccf-resources/capping_federal_spending_imperils_success_on_kids_health_3	And	a cap sounds like	a simple and effective way to address the nation 's deficit .
+http://imdiversity.com/diversity-news/tough-times-grads-become-overqualified-nannies	And if getting a trained , certified early-childhood educator for the price of	a babysitter sounds like	a good deal to you , you 're not the only one .
+http://www.soundstageav.com/onhometheater.html	Our senses know what	a room sounds like	, but to have your brain spark and say room , you need deep , accurate bass .
+http://c2.com/cgi/wiki?IronGeek	Steve 's ( or was it Peter 's ? ) idea of	a series sounds like	fun .
+http://caracaschronicles.com/2014/02/24/chronicle-of-a-crisis-foretold	I 'm reminded of so many other times when there has been	a chavista sounding like	an opposition , until he does n't ...
+http://www.mikedolbear.co.uk/story.asp?StoryID=1315%26Source=Search%26txtSearch=	Its very difficult for me to put into words what	a cymbal sounds like	, I can only try and paint a picture for you .
+http://jd-divas.com/phoenixe/lastlaugh.shtml	" Expect it , " Teal ' c finished , in	a voice sounding like	the last trump of judgment .
+http://www.studio-international.co.uk/reports/miller_lee.asp	So disingenuous	an account sounds like	an accidental recipe for conceptual art ' avant la lettre ' , which of course it is anything but .
+http://blog.washingtonpost.com/benchconference/2007/04/the_smartest_thing_said_about.html	Furthermore , hiring	a stripper sounds like	one of the stupidest possible wastes of one 's money .
+http://www.blogengage.com/blogger/share-a-sale-a-great-program-to-sell-great-products	Share	A Sale sounds like	a great network .
+http://www.sheffieldforum.co.uk/archive/index.php/t-679164.html	Not using a siren at	a junction sounds like	a deliberate decision - most Blue Light drivers would know that it makes the maneouvre much easier ( & safer ) if they use the siren and creep through - but if there is a reason why the siren might hinder them ( en route to an offence in progress ) , the driver makes the judgement .
+# = STATS =============================================================
+# HITS:          43
+# DUPLICATES:    2
+# QUERY TIME:    2020-02-18 09:01:28
+# ELAPSED:       5.56724405289 s
+# =====================================================================

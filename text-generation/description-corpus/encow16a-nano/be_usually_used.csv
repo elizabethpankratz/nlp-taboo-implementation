@@ -1,0 +1,24 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="be"][word="usually"][word="used"]
+# CORPUS:        encow16a-nano
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://www.apparelsearch.com/Definitions/Clothing/coverall.htm		An overall is usually used	as protective clothing when working , but they have sometimes been items of fashion , especially in the 1990 s .
+http://www.intelligentretail.co.uk/amazon-integration.jsp	Note :	A barcode is usually used	to tell Amazon which product you are sending them .
+# = STATS =============================================================
+# HITS:          2
+# DUPLICATES:    0
+# QUERY TIME:    2020-02-18 08:59:57
+# ELAPSED:       4.14403986931 s
+# =====================================================================

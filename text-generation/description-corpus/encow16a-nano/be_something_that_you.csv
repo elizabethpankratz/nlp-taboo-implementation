@@ -1,0 +1,31 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="be"][word="something"][word="that"][word="you"]
+# CORPUS:        encow16a-nano
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://www.howto.co.uk/business/rural-business/countryside_survival_skills	Thinking around	a problem is something that you	're going to have to get used to .
+http://www.savingadvice.com/articles/2013/04/04/1014641_10-things-worth-splurging-on.html		A mattress is something that you	'll be using every day , so you should spend a little more money on a quality mattress .
+http://www.ciao.co.uk/Another_year_another_set_of_New_Year_s_Resolutions_What_will_yours_be_this_year__Review_5809508	I 'm not one to use the word resolutions as to me	a resolution is something that you	so often make but end up breaking so I prefer to use the term " Aims and Goals " .
+http://bryanquigley.com/tag/planet-ubuntu/page/10		A bug is something that you	can help find so that Mozilla can fix it .
+http://www.macrobusiness.com.au/2011/12/from-bad-to-worse-for-the-imf		A religion is something that you	can choose .
+http://www.ultimatedallas.com/dallasinterviews/joan.htm	James : And so obviously the preparation of	a role is something that you	love and is really important to you .
+http://forum.novatech.co.uk/archive/index.php/t-11211.html?s=ed9998f5dedee8f7d3454841dc78c853	In my opinion if cable management in	a PC is something that you	take seriously then you probably wont buy a ready made system and if you buy one of these and decide to upgrade any components then that is when you may decide that you want to arrange the cables your own way .
+http://conservapedia.com/Debate%3AAtheism_vs._Pastafarianism		A possibility is something that you	consider possible , but do n't necessarily believe to be the case ( but do n't reject either ) .
+http://conservapedia.com/Debate%3AAtheism_vs._Pastafarianism		An assumption is something that you	do believe , even if you do so without complete certainty .
+# = STATS =============================================================
+# HITS:          9
+# DUPLICATES:    0
+# QUERY TIME:    2020-02-18 09:01:43
+# ELAPSED:       4.70752000809 s
+# =====================================================================

@@ -1,0 +1,38 @@
+be_det.csv : a X is a
+[lemma="a(n)?"][tag="NN"][lemma="be"][tag="DT"]
+
+be_not_det.csv : a X is not a
+[lemma="a(n)?"][tag="NN"][lemma="be"][lemma="not"][tag="DT"]
+
+look_like.csv : a X looks like
+[lemma="a(n)?"][tag="NN"][lemma="look" & tag!="N*"][lemma="like"]
+
+sound_like.csv : a X sounds like
+[lemma="a(n)?"][tag="NN"][lemma="sound" & tag!="N*"][lemma="like"]
+
+smell_like.csv : a X smells like
+[lemma="a(n)?"][tag="NN"][lemma="smell" & tag!="N*"][lemma="like"]
+
+feel_like.csv : a X feels like
+[lemma="a(n)?"][tag="NN"][lemma="feel" & tag!="N*"][lemma="like"]
+
+means.csv : a X means
+[lemma="a(n)?"][tag="NN"][lemma="mean" & tag!="N*"]
+
+be_part_of.csv : a X is part of
+[lemma="a(n)?"][tag="NN"][lemma="be"][word="part"][word="of"]
+
+be_related_to.csv : a X is related to
+[lemma="a(n)?"][tag="NN"][lemma="be"][word="related"][word="to"]
+
+be_another_word_for.csv : a X is another word for
+[lemma="a(n)?"][tag="NN"][lemma="be"][word="another"][word="word"][word="for"]
+
+can_be_found.csv : a X can be found in
+[lemma="a(n)?"][tag="NN"][lemma="can"][lemma="be"][word="found"]
+
+be_usually_used.csv : a X is usually used for
+[lemma="a(n)?"][tag="NN"][lemma="be"][word="usually"][word="used"]
+
+be_something_that_you.csv : a X is something that you
+[lemma="a(n)?"][tag="NN"][lemma="be"][word="something"][word="that"][word="you"]

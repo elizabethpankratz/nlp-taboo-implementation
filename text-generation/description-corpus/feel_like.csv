@@ -1,0 +1,96 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="feel" & tag!="N*"][lemma="like"]
+# CORPUS:        encow16a-nano
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://tonygill.co.uk/yeahtherewas.htm	Mike smiled as he looked at his homemade bandage , and said " You sure know how to make	a man feel like	a kid , do n't you Jess !
+http://gameological.com/2012/10/steven-johnson-author	Yeah , I feel the same way about N. Watching my little ninja hit	a minefield feels like	I 'm being rewarded for failure .
+http://www.babycentre.co.uk/stages/3200/?printFriendly=yes	And	a minute feels like	an eternity , anyway !
+http://en.citizendium.org/wiki/Transpersonal_psychology	I know what	an elephant feels like	when he is angry or sexually aroused , and what it is like when water enters his trunk .
+http://blogs.plos.org/neurotribes/2012/11/15/music-to-write-by-10-top-authors-share-their-secrets-for-summoning-the-muse	Sometimes , being	a writer feels like	getting paid to pull a rabbit out of a hat over and over again - but each time it has to be a new breed of rabbit , " miraculously " emerging from a different style of hat .
+http://buzz.eewmagazine.com/eew-magazine-buzz-blog/2014/5/6/controversy-is-td-jakes-downplaying-god-to-sell-more-books.html	Truthfully , if destiny fulfillment was really based on what	a person felt like	they should be doing , Moses would have never delivered the Israelites from Egyptian slavery .
+http://www.blacksunjournal.com/television/1364_full-sean-prophet-kulr-tv-interview-at-youtube_2008.html	You might gain some insight from the experiences of a neuroanatomist who had	a stroke-and felt like	she had found nirvana .
+http://kelspencer.com/2011/01/19/spencerism-independent-women-what	Women will be alone if you make	a man feel like	you DON ' T NEED HIM !!!
+http://www.bbc.co.uk/ulsterscots/learn/lesson/8	Whun Thursday nicht cum A declare	A jist felt like	a man that wuz gaun tae be hanged .
+http://ituniverse.co.uk/uiuyeqk.html	Real Palm Trees make	a home feel like	home by giving you the feel of nature inside or out .
+http://memeburn.com/2010/08/cell-c-responds-to-facebook-youtube-jibes-with-full-page-newspaper-ad	What does running	a startup feel like	...
+http://irvingruan.com/post/636662152/i-highly-recommend-watching-sir-ken-robinsons	You know this , if you 're doing something you love ,	an hour feels like	five minutes .
+http://news.illinois.edu/ii/12/0419/cdsa.html	" You could easily call Purdy the unit ' cheerleader ' because he is always upbeat , nudging others to perform well and making	a person feel like	they can meet and accomplish a challenging situation , " said Cindy Kelly , the head of library human resources .
+http://ct.counseling.org/2014/04/page/2	" I respect not immediately disclosing the pregnancy , especially if you are n't planning on going on maternity leave immediately and feel you have time to broach the topic later , " she says , " but to be told via text message while canceling	an appointment feels like	a boundary issue .
+http://www.usatoday.com/story/travel/destinations/2013/08/02/enchanted-highway-sculptures-north-dakota/2603189	Weighing 78 tons , it makes	a minivan feel like	a mini Cooper .
+http://www.vitae.ac.uk/53721/Sam-consultant-PhD-in-immunology.html	At that time I could n't see any other careers that grabbed my enthusiasm and	a PhD felt like	a natural progression from what I was already doing ( research student in a Swiss institute ) .
+http://www.eyeforfilm.co.uk/review/hurly-burly-film-review-by-angus-wolfe-murray	When	a film feels like	a play , it becomes static .
+http://worldofarsenal.co.uk/2009/07/13/arsenal-agree-fee-with-man-city-for-adebayor	Nick has height but makes	a snail feel like	usain bolt !
+http://alltherecords.tumblr.com/tagged/recordreview	Which can be nice sometimes , when	an album feels like	it needs to be listened to all at once because all the songs flow perfectly into one another - and this album does that a little bit , but I 'm not feeling that emotional about this music .
+http://explorefaith.org/resources/books/anne_rices_spiritual_memoir.php	In an otherwise deeply contemplative , even broody , memoir , such	a lacuna feels like	a glaring omission , but the reader gets the distinct impression that some events in Rice 's life are simply too painful for her to discuss .
+http://comet.lehman.cuny.edu/sormani/mathclub/english.html	On the other hand , if	a course feels like	an easy A : do n't just aim for the A , ask the professor for extra reading .
+http://littleredboat.co.uk/archives/date/2010/08	If there 's anything that can make	a girl feel like	she 's just walked into a science fiction novel , it 's alighting at a station called West Portal .
+http://goodcomics.comicbookresources.com/2010/07/05/she-has-no-head-wonder-woman-600	So you 've got Simonson and Simone trying to pack in story arcs and massive guest stars and then you 've got Johns just kind of ambling along with a little pseudo introduction to JMS ' relaunch piece that goes nowhere ... and it makes	a reader feel like	this book should have been much better coordinated .
+http://getinmedia.com/articles/b-roll?page=3	If	an artist feels like	their free material is detracting from sales , they can always monetize it later , said Eric Henry , senior director of Rostrum Records , the label that manages Wiz Khalifa .
+http://devdutt.com/articles/leadership/warm-welcome.html	If	a bride feels like	an outsider , she will resist integration into the household .
+http://www.tvthrong.co.uk/tag/the-hotel-inspector	" You have to make	a man feel like	he 's not waking up in Barbara Cartland 's underwear , " she insists .
+http://www.top100golfcourses.co.uk/htmlsite/productdetails.asp?id=295	The par 3 sixth hole into the wind is as hard as any hole and holes 7 , 12 and 13 are par 4 's at over 440 yards and into the wind	a bogey feels like	a birdie , superb golf course of which I pride myself on being a resident of the town of Portrush .
+http://palimpsest.org.uk/forum/archive/index.php/t-1118.html	There was too much detail and not enough immersion ; and , because the tone was the same throughout - of an overview rather than a living , breathing story - the whole thing as	a result felt like	all build-up and not enough consummation .
+http://classracegender.wordpress.com/2014/04/30/this-is-the-very-threshold-of-revelation-sometimes/?replytocom=1762	I think that larger calls to action appear to be disregarded because	a visitor feels like	they are sympathetic , yet ultimately removed from the issue being discussed .
+http://www.mikeindustries.com/blog/archive/2005/09/mint-the-flavor-of-the-month	Toning down the photo grid	a bit feels like	the right move .
+http://books.simonandschuster.co.uk/Style-Checklist/Lloyd-Boston/9781439163948/excerpt_with_id/7922	A single-button closure will look the smartest , taking you from casual and business straight into any last-minute evening event where	a dress feels like	too much .
+http://www.cracked.com/article_18777_5-scientific-reasons-powerful-people-will-always-suck.html	Think about what that says about society : The people who are already powerless , as	a result feel like	they 're less worthy to be in power and thus stay powerless .
+http://dilbert.com/blog/entry/?EntryID=1093%26print=1	Helping someone who is struggling to create	a business feels like	a meaningful use of your mind and your resources .
+http://www.poliosurvivorsnetwork.org.uk/archive/lincolnshire/linkpin/linkpin9810.html	" Using crutches or	a wheelchair feels like	painting a bullseye on your chest above the words , ' Abuse me , I 'm disabled !
+http://catb.org/~esr/writings/no-sushi	The view from the rickshaw was only a few feet further off the ground than you 'd get walking , but psychologically very different ; the vehicle seemed designed to make	a rider feel like	master of all he surveys .
+http://blog.tabini.ca	None of these changes-which can be largely automated-would compromise Apple 's secrets , increase engineering workload , or cause the company to make any additional commitment to developers , but they would go a long way towards making anyone who reports	a bug feel like	they 're actually being listened to .
+http://www.adventuregamestudio.co.uk/forums/index.php?action=profile;u=2501;area=showposts;start=20	If	a project feels like	it 's turning on you , give it some space .
+http://kavkazcenter.com/eng/content/2013/09/11/18300_print.html	It 's hard to put your finger on it , but that 's what	a chill feels like	.
+http://gameological.com/2012/10/the-seeds-metroid	Shooting or bombing	a wall felt like	you were blasting a chunk out of a living creature ( even when they were supposed to be rocks . ) When I froze enemies , it really sounded and felt like I was freezing something that had been alive ( and would be again , if I did n't blast it some more .
+http://greenspun.com/bboard/q-and-a-fetch-msg.tcl?msg_id=002KAV	If	a sysops feels like	fixing a close tag in there , thanks .
+http://forum.ctc.org.uk/viewtopic.php?p=589908%26sid=7852c0364da19f9257c1e1f8337346bc	Leaving	a town felt like	riding into a black wall .
+http://prmc.royalnavy.mod.uk/archive/index.php/t-7438.html	untill saturday anyway , its absolutely f * * * ing sh * * e the manager is a dosy manc , the hours are long , the job is pointless and its dead in there so	an hour feels like	a day .. other than that i labour with my uncle when i can , but yea having a civvy job is a nightmare with training because your doing something that not only do you not want to do , but hate to do , and on top of all of this it affects training and things .. aaagh i go round the world in a month n then ave me prmc to look forward to when im back , happy days for now .. keep the goal in mind and it pushes you through this crap in the mean time ..
+http://palimpsest.org.uk/forum/archive/index.php/t-169.html	The problem is that reading such	a book feels like	defacing a relic .
+http://rpgland.com/games/reviews/ni-no-kuni-wrath-of-the-white-witch	The NPCs do n't make much impact as individuals , but the population as	a whole feels like	its full of real people with real problems .
+http://www.bexley-is-bonkers.co.uk/politics/health/queen_elizabeth_hospital_woolwich_updated.shtml	En-route and stuck in the traffic one of the ambulance crew remarked " Now you know what	a woman feels like	when having a baby " .
+http://www.thisissussex.co.uk/Reflex-anoxic-seizures-mean-slightest-surprise/story-16096657-detail/story.html	Having	a diagnosis felt like	a weight had been lifted .
+http://talkingstove.co.uk/page/7	In my Diet Coke-marinated brain reading	a book feels like	the sort of events that 's sufficiently undeserving of note to be doable in under a couple of hours , like baking a cake or sweeping .
+http://tunesidig.tumblr.com	So , even though signing	a petition feels like	a drop in the bucket , every action counts a bit !
+http://www.bbc.co.uk/blogs/simonmayo/2012/02	Someone once said that February was designed for those who do n't drink to know what	a hangover feels like	.
+http://pregnancy.about.com/cs/findadoctormid/a/genderdoctor.htm	Does knowing what	a contraction feels like	make your doctor a better doctor ?
+http://www.sheffieldforum.co.uk/archive/index.php/t-18706.html	That was one of the nice things about the Wap , although it catered to the long haired hairies which included some of the girls it also had an open door policy if	a smoothie felt like	slumming it .
+http://brightonreiki.co.uk/category/blog/page/2	If you have any questions or want to meet me for a chat and see what	a blessing feels like	, please let me know .
+http://blogs.which.co.uk/technology/smartphones/is-microsoft-the-winner-from-jobs-rant	Focusing its marketing towards fitting around a user 's life , rather than dominating it , is a refreshing tact and one that one that will make	a consumer feel like	they are the important one .
+http://www.famousbloggers.net/essential-seo-tips.html	When you think of it , if	a link feels like	out of context , and you ca n't come up with proper place ( and anchor text ) for it , maybe that link should n't be there at all , but something else instead .
+http://pitchfork.com/features/staff-lists/9017-the-top-50-albums-of-2012	" The connection is so vivid because El has spent the album , and his career , painting himself as a kindred spirit : Cancer for Cure is what	a scream feels like	when it never leaves your brain .
+http://www.hunterdonhealthcare.org/node/1124	What does	a pacemaker feel like	?
+http://www.overthinkingit.com/2012/11/13/the-law-and-order-database-all-20-seasons	What I 'd say the numbers show ( or at least hint at ) is that when the ratings are dropping ,	a showrunner feels like	he has to do something .
+http://stearns.wordpress.com/2011/12/09/journalism-as-a-service-not-a-product	As early as 2006 Jeff Jarvis was describing networked journalism as a process , but building on the open source software ethos that undergirds Sills paper , her focus on journalism as	a service felt like	a helpful extension of this idea .
+http://www.compassonline.org.uk/news/item.asp?n=15992	In a consciousness raising workshop on the first day of the Summer School , participants were invited to reflect on what being	a feminist feels like	.
+http://cclblog.wordpress.com/2008/05/18/junot-diaz-on-librarians	That 's what	a library felt like	.
+http://www.sciencemuseum.org.uk/visitmuseum/agegroups/12_to_16/special_exhibitions.aspx	How long does	a minute feel like	?
+http://bestwritingservice.com/essays/Health/how-occupational-stress-affects-mental-health.html	Nausea - is a sensational feeling that makes	a person feel like	throwing up .
+http://healing.about.com/b/2013/03/08/passion-vs-obsession.htm	Every direction you took for	a time felt like	a misstep .
+http://www.guardian.co.uk/lifeandstyle/2008/feb/02/familyandrelationships.family1	Kate Hilpern : Being asked to be	a godmother feels like	an important role that 's difficult to refuse .
+http://www.culturecompass.co.uk/2012/02/28/interview-with-the-brute-chorus	It 's never nice to leave	a gig feeling like	it could 've gone better or we could 've played better but it does make us more determined to get it right the next time .
+http://www.witchvox.com/va/dt_va.html?a=ustx%26c=trads%26id=6325	If	a person feels like	they are being " called " or approached by the spirits of Haiti , the first thing a person should begin to do is to serve their ancestors , perhaps beginning with an ancestor novena ( see the links below ) .
+http://impossiblehq.com/two-ways-achieve-goals	It might be chaotic , but sometimes that 's what	a jumpstart feels like	.
+http://johngreenbooks.com/questions-about-the-fault-in-our-stars-spoilers/comment-page-12/?replytocom=1113275	I write fiction , and it 's not my ambition that	a reader feel like	my story is a work of journalism .
+http://tvcomedies.about.com/od/showsaz/fr/The-Michael-J-Fox-Show-Review.htm	A subplot in the second episode about Eve getting nervous over having a friend she thinks is	a lesbian feels like	it was imported from 1994 .
+http://blueollie.wordpress.com/2007/02	The film unfolds like Apocalypse Now in reverse - rather than a journey into the heart of darkness , it 's a story that begins in hell and shows us the kind of doomed characters for whom playing a game of Russian roulette with	a gas-pedal feels like	a dose of existential freedom .
+http://blog.apartmentfinder.com/industry	There are many ways to make	an apartment feel like	it has a spring vibe to it .
+http://web.media.mit.edu/~minsky/eb3.html	[ ii ] In § 6 -3 we 'll say more about what sometimes makes	a goal feel like	a force .
+http://www.dailymail.co.uk/sciencetech/article-1313275/Wondered-couldn-t-Apple-iPhone-4-Here-s-answer.html	Even Macs have this stupid mouse pointer acceleration , which makes using	a mouse feel like	you 're dragging it through treacle - and there 's no option to disable it !
+http://cvnc.org/reviews/2008/102008/Mutter.html	The subtitle of this work is for good reason , as it is just filled with trills ( rapid , left-hand embellishments of a note ) , something which even for short stretches can make	a player feel like	his muscles are being torn out of his arm .
+# = STATS =============================================================
+# HITS:          74
+# DUPLICATES:    2
+# QUERY TIME:    2020-02-18 08:56:48
+# ELAPSED:       5.37771701813 s
+# =====================================================================

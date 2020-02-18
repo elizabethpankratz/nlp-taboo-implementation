@@ -1,0 +1,24 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="smell" & tag!="N*"][lemma="like"]
+# CORPUS:        encow16a-nano
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://theeditorsblog.net/2013/05/04/come-to-your-senses	If	a bedroom smells like	the funk of a gym , let a character notice .
+http://newsfeed.time.com/2013/04/15/boston-marathon-eyewitness	I lived in New York City during 9 / 11 so I know what	an explosion smells like	.
+# = STATS =============================================================
+# HITS:          2
+# DUPLICATES:    0
+# QUERY TIME:    2020-02-18 08:56:54
+# ELAPSED:       5.26956105232 s
+# =====================================================================

@@ -1,0 +1,122 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="be"][word="something"][word="that"][word="you"]
+# CORPUS:        encow16a
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://www.friesian.com/wisdom.htm		A joke is something that you	have to " get , " that must be understood .
+http://apple.slashdot.org/story/13/05/01/2220244/move-over-apple---samsung-files-for-a-patent-on-page-turn	Getting	a patent is something that you	should earn by producing something genuinely novel that advances our society and can net you money .
+http://www.apartmenttherapy.com/eames-knock-offs-fakes-copies-81906	Once upon a time ,	a chair was something that you	put your butt on when you wanted to rest ...
+http://www.paydayloan.co.uk/pages/financial-jargon.html		An investment is something that you	invest time , effort or money into in order to someday make a profit from it .
+http://www.cardiff.ac.uk/maths/research/researchgroups/numbertheory/advice/index.html		A problem is something that you	are approaching from the wrong direction .
+http://graduatefog.co.uk/2011/1285/university-careers-advice-update-anne-wilson	Too many grads are still thinking that	a career is something that you	pick from a list , aged 21 and then just ' do ' , climbing the ladder until you reach retirement .
+http://www.ukgreenhousesales.co.uk/blog		A greenhouse is something that you	look at every day , something that can feed your family and also a structure that will provide decades of enjoyment and interest for ourselves and our children .
+http://1000awesomethings.com/2012/03/30/15-becoming-a-regular-somewhere	Been regular on	a place is something that you	see on comedy series like How I Met your Mother and Friends , and as we see it is always funny and awesome .
+http://www.syncleadership.co.uk/Natural%20skills%20and%20talents%20-%20easy%20read	Sarah thinks a skill is something you learn but	a talent is something that you	have inside yourself .
+http://clicks.robertgenn.com/about-space.php	A Barnett Newman quote I 've always liked : "	A sculpture is something that you	bump into when you back up to look at a painting " .
+http://www.companyrescue.co.uk/glossary-of-insolvency-terms	Liability -	A Liability is something that you	owe to somebody , i.e. a mortgage , loan payment credit / store cards .
+http://www.rodsmith.org.uk/philosophy%20glossary/philosophy%20glossaryN-Q.htm		A proposition is something that you	could hold , or believe , or put forward as a claim .
+http://cmcweb.ca/eic/site/cmc-cmc.nsf/eng/fe00133.html		An asset is something that you	own fully ( you do not owe any money on it ) .
+http://golem.ph.utexas.edu/category/2008/10/entropy_diversity_and_cardinal.html	For example , the diversity of species in	a field is something that you	should be able to measure by taking samples here and there e.g. by throwing down quadrats , those metre-square frames ) - it has nothing to do with how big the field is .
+http://www.geofftech.co.uk/america/index.html	Except do n't say flask to an an American , use the word Thermos instead , because	a flask is something that you	would only put liquor in .
+http://blog.mypersonalbrilliance.com/page/4		A habit is something that you	do so often and so regularly that it becomes automatic .
+http://www.baggagereclaim.co.uk/what-do-you-believe-in-about-you-your-beliefs-tell-you-what-you-think-are-your-capabilities-in-that-capacity		A belief is something that you	believe to be true .
+http://www.shyamspace.com/satsang/v17-01-05/v17n04.htm	Dikpal :	A mystery is something that you	do not know and you want to know .
+http://aurorasmessage.com/blog17/?p=104%26replytocom=138	A resolution to me is temporary ( since it only lasts a year ) , whereas	a pledge is something that you	take to heart and do for yourself on a permanent basis .
+http://bethanyhamilton.com/2012/09/japan/comment-page-1		A memoir is something that you	have to write a short story based on your life and what inspired you through out the years .
+http://www.foodandwine.com/articles/jim-meehan-cocktail-primer	Starting	a bar is something that you	should do piece by piece , starting with single recipes .
+http://www.raes-fsg.org.uk/cgi-bin/yabb3u/YaBB.pl?action=print;num=1328085834		A watch is something that you	wear every day unlike a piece of clothing or even jewelry .
+http://technicallyeasy.net	To you ,	a computer is something that you	may use for going online , checking your e-mail , playing video games or do work .
+http://www.howto.co.uk/wellbeing/the-a-z-of-home-security		A countermeasure is something that you	can do to improve your security and safety .
+http://www.goodtoknow.co.uk/family/265478/Your-first-year-with-twins/print/1	That said , multi-tasking is a very useful skill in situations like this and rocking one baby to sleep with your foot while giving the other one	a bottle is something that you	'll do well to master .
+http://www.grangehillfans.co.uk/schoolyard/index.php?/topic/783-why-tucker/page__st__20__p__8322	Also , " Bullet " Baxter -	a bullet is something that you	get in a gun , so was this an indication that Baxter was tough ?
+http://blog.momekh.com/2011/12/22/how-to-create-a-company-that-can-run-without-you/?replytocom=3422	For my new readers : around here , a business is considered a set of systems that you set up to make money - and	a profession is something that you	like to spend your time on .
+http://yoz.com/wired/2.11/features/gaiman.html		A comic is something that you	as a reader construct , because you 're taking a picture , you 're taking words , and you 're laying them together .
+http://www.bbc.co.uk/blogs/pm/pmprivacy-asr.shtml	If they did n't talk about a story -	a story is something that you	read to children at bedtime that is pleasant .
+http://www.mcafee-downloads.co.uk/Articles/email-attachments.html	Who can remember the early days of the internet , when getting an e-mail was such a big deal , and one with	an attachment was something that you	had to take a glass of water before opening it .
+http://svpow.com/2012/05/02/how-elsevier-can-save-itself-part-3-hard		A petition is something that you	sign to try to persuade someone to change their mind about something .
+http://mutantreviewers.wordpress.com/2014/01/10/with-honors	And seeing Joe Pesci in the bathtub with Viking horns and	a plunger is something that you	need to experience at least once in your life .
+http://cascade.uoregon.edu/spring2013/expert/expert-article		A headache was something that you	get if you were worrying a little too much or you did n't sleep well .
+http://www.ibm.com/developerworks/linux/library/l-cairo/?ca=dgr-lnxw03linuxcairo%26S_TACT=105AGX59%26S_CMP=GR	In cairo ,	a pattern is something that you	can read from , that is used as the source or mask of a drawing operation .
+http://denniskennedy.com/blog/2008/02	In addition to some valuable business lessons that you 'll see play out in a number of settings , you will also get a feel for whether the life of running	a business is something that you	want to have .
+http://www.futuremovies.co.uk/filmmaking.asp?ID=23	Contrary to the ocean ,	a pool is something that you	can manipulate .
+http://alicewalkersgarden.com/archive/books/articles	Alice Walker : I do n't know where that suitcase image came from ( laughs ) , but now that I think of it ,	a suitcase is something that you	also fill up again and move on off with ( laughs ) .
+http://frugalzeitgeist.com/2011/07	Taking out	a mortgage is something that you	need to consider at long length , so make sure you get advice from your lender and independent bodies .
+http://www.photo-i.co.uk/talkshop/Amazing%20internet/Amazing.htm	If getting	a website is something that you	thought would cost you an arm and a leg , or something that you have been putting off for some time , think again .
+http://www.bbc.co.uk/blogs/nickrobinson/2009/10/another_gaffe.html		A liability is something that you	may well need to give to someone else at some stage in the future .
+http://www.arrse.co.uk/military-history-militaria/164090-spams-questions-role-victorian-era-british-cavalry-print.html?pp=40	And they only got sharpened for battle because	an edge is something that you	do n't want when you 're chucking your sword round you and / or your horses ears doing drill .
+http://www.therevival.co.uk/blogs/bilan/who-are-people-taqwa	One of the essential roles that the Quran plays in the lives of the believers is that it serves as a reminder and by definition	a reminder is something that you	already know and Allah(swt) reminds us in the Quran of things we know but may not always act upon .
+http://news.firedoglake.com/2013/10/21/democrats-opening-the-door-on-cuts-to-social-security		An entitlement is something that you	have a right to , and no one can take it away .
+http://www.pressgazette.co.uk/node/47932	If you want to be a writer you have to have an outlet to do that , and	a blog is something that you	can set up in two minutes now .
+http://www.bbc.co.uk/blogs/thereporters/stephanieflanders/2011/05/inflation_up_growth_down_uncer.html	On the basis that	a target is something that you	actively set out to hit why do the BOE and MPC continue with the pretence that they have one for inflation ?
+http://www.canadianactor.com/actors/italy.html		A ceremony is something that you	do repeatedly , almost like a code that your brain runs on .
+http://www.fashion.arts.ac.uk/alumni/profiles/njide-ugboma-journalism-ma	Obviously , working to	a deadline is something that you	take with you into your professional career and it was made very apparent how crucial this is in journalism - no editor will ever wait for you or work with you again if you do n't file copy on time !
+http://zonalandeducation.com/mstm/physics/mechanics/vectors/introduction/introductionVectors.html		A quantity is something that you	measure .
+http://www.purifymind.com/FiveAggregate.htm	They say that the dharma is like a mirror , in that	a mirror is something that you	use to see if you have any dirt on your face , so that you can then wash it off , and similarly the dharma is something that you can use to see if you have any faults , any mistaken conduct and so forth .
+http://homeguides.sfgate.com/make-pond-compost-47853.html	Measuring tile across	an outlet is something that you	would ...
+http://99u.com/articles/6907/maps-the-four-pillars-of-creative-job-fulfillment	The first step is to shift your perspective : To understand that	a career is something that you	create , rather than a pre-existing role that you step into .
+http://www.wsc.co.uk/wsc-daily/1020-October-2011/7860-preparing-for-yet-another-white-elephant-mega-event	And	a gift being something that you	receive for free , one must assume that the estimated costs for the stadium of over £ 500 million did not come from the people 's pocket .
+http://www.mensandladieswatches.co.uk	Choosing a watch , either for your own use or for	a gift is something that you	put a lot of thought into - comparing styles , selecting features , choosing colours .
+http://www.ekbbusiness.co.uk/site/designer_profile_print.php?id=8		A project is something that you	have to live with for so long , so it has to be right .
+http://goodrelaxation.com/2012/11/herbal-remedies-for-migraines	"	A headache is something that you	get that bothers you , causes you temporary pain , and motivates you to seek immediate relief .
+http://whoosh.org/epguide/spooks/303.html	' These days , most people 's idea of	a secret is something that you	only tell one person at a time .
+http://www.articledepot.co.uk/article-30386.htm	But now , many store aisles are becoming virtual , a shopping cart is something you fill with images of a product and	a checkout is something that you	click on to confirm your order .
+http://students.brown.edu/College_Hill_Independent/?p=7623	But we also had this strong feeling that it was n't our obligation as n + 1 or as a magazine because speaking well of Obama , and endorsing him as	a candidate was something that you	could find everywhere else in the world .
+http://www.publications.parliament.uk/pa/cm201011/cmselect/cmenergy/uc742-vii/uc74201.htm	It is precisely that uncertainty that led us intellectually towards thinking that Contracts for Difference were the right approach because	a contract is something that you	can rely on and take to a court of law .
+http://www.ciao.co.uk/groovychocolate_com__Review_5296901	Something so personalised and with need of careful attention when posted to	an address is something that you	would n't expect to come too cheaply .
+http://www.showbizspy.com/article/274119/jennifer-aniston-spends-60k-on-drive-in-closet.html		A vasectomy is something that you	need to plan out ahead of time and discuss with your partner .
+http://www.raes-fsg.org.uk/cgi-bin/yabb3u/YaBB.pl?action=print;num=1334024459		A watch is something that you	wear every day fake glashutte watch unlike a piece of clothing or even jewelry .
+http://www.publications.parliament.uk/pa/cm201012/cmselect/cmtran/uc872-iv/uc87201.htm	How we teach people to drive better rather than teaching them to pass	a test is something that you	will hear me go on and on about all the time because that is one of the biggest challenges we have .
+http://www.zengardner.com/resisting-mind-control-with-conscious-awareness		An illusion is something that you	see but is not there .
+http://www.scientificcomputing.com/news/2014/05/custom-camouflage-patterns-mit-algorithms-could-hide-public-eyesores?et_cid=3961599%26et_rid=82444146%26type=cta	Conceptually , a cue that would be good for detecting	an object is something that you	want to remove .
+http://billmoyers.com/content/bryan-stevenson-and-michelle-alexander		An addiction is something that you	ca n't control .
+http://deadmanshand.ca/brand/canada.asp?id=524		A talent is something that you	are born with , and a skill is something that you learn .
+http://homeguides.sfgate.com/escheat-process-6814.html	Donating real estate to	a city is something that you	can do ...
+http://joshreads.com/?p=21405	Planning an elaborate trick to play on a child to teach her	a lesson is something that you	see in wacky movies and sitcoms , but not something I 'd expect to see in " Rex Morgan " .
+http://newafricaradio.com/articles/12-23-77.html		An angel is something that you	ca n't see physically .
+http://www.printware.co.uk/Blog/282/Print-Your-Facebook-Photos-With-Kodak-Kiosk.html	Remember when	a photograph was something that you	held in your hand , looked at in an album , admired in a frame ?
+http://www.westnet.com/~chris/arcade/SpaceWar/spacewar1.html	In short ,	a computer was something that you	simply did not sit down and fool around with .
+http://www.purifymind.com/Om13.htm		A lasso is something that you	use to tie things , like tying an animal to a stick , post or hook .
+http://kigrecords.net/groups/how-to-identify-a-faux-opal	Shortening	a necklace is something that you	will frequently do if your necklace has a pendant on it .
+http://automattic.com/code/widgets/use		A widget is something that you	might want on your sidebar , such as a category list or the most recent comments or a link to your admin pages .
+http://www.howto.co.uk/business/rural-business/countryside_survival_skills	Thinking around	a problem is something that you	're going to have to get used to .
+http://www.savingadvice.com/articles/2013/04/04/1014641_10-things-worth-splurging-on.html		A mattress is something that you	'll be using every day , so you should spend a little more money on a quality mattress .
+http://www.ciao.co.uk/Another_year_another_set_of_New_Year_s_Resolutions_What_will_yours_be_this_year__Review_5809508	I 'm not one to use the word resolutions as to me	a resolution is something that you	so often make but end up breaking so I prefer to use the term " Aims and Goals " .
+http://bryanquigley.com/tag/planet-ubuntu/page/10		A bug is something that you	can help find so that Mozilla can fix it .
+http://www.macrobusiness.com.au/2011/12/from-bad-to-worse-for-the-imf		A religion is something that you	can choose .
+http://www.ultimatedallas.com/dallasinterviews/joan.htm	James : And so obviously the preparation of	a role is something that you	love and is really important to you .
+http://forum.novatech.co.uk/archive/index.php/t-11211.html?s=ed9998f5dedee8f7d3454841dc78c853	In my opinion if cable management in	a PC is something that you	take seriously then you probably wont buy a ready made system and if you buy one of these and decide to upgrade any components then that is when you may decide that you want to arrange the cables your own way .
+http://conservapedia.com/Debate%3AAtheism_vs._Pastafarianism		A possibility is something that you	consider possible , but do n't necessarily believe to be the case ( but do n't reject either ) .
+http://conservapedia.com/Debate%3AAtheism_vs._Pastafarianism		An assumption is something that you	do believe , even if you do so without complete certainty .
+http://www.howto.co.uk/property/home-safety-security/introduction_45		A countermeasure is something that you	can do to improve your safety and security .
+http://www-h.eng.cam.ac.uk/help/importedHTML/languages/java/javanotes5.0.2/c8/s2.html		A precondition is something that you	want to be true .
+http://www.sladdens.co.uk/APBlog/index.php?What-you-need-to-consider-when-hiring-a-plumber%26bId=1257	In essence , hiring	a plumber is something that you	need to give some consideration to .
+http://listentothepeople.co.uk/uk-political-blog.html?start=27		An investment is something that you	can cash in and get back what you put in , and you expect to get back more .
+http://www.makowskilaw.com/pams_practice_areas/divorce	Also , just because	an asset is something that you	cannot touch right now , such as a retirement plan , does not mean that it cannot be divided .
+http://www.catsproblems.co.uk/are-cats-easier-to-care-for-than-dogs	While	a dog is something that you	have to spend time housebreaking , socializing , and training when it 's a puppy , in order for it to grow up to be a good dog , a cat is an animal that you have to do the same thing with when it 's a kitten .
+http://healthyschoolscampaign.org/blog/valley-high-school-wins-cooking-up-change-in-orange-county-for-second-year	"	A pita was something that you	do n't see much .
+http://pm.stackexchange.com/questions/11400/assumptions-and-constaints-and-risk-management	Generally speaking ,	a risk is something that you	can control , transfer , or accept .
+http://horse-drawn.com/content/horse-drawn-weddings		A wedding is something that you	planned ahead for months and months and sometimes even years , so why not have it the way you 've dreamed it .
+http://www.moodjuice.scot.nhs.uk/ChronicPain.asp		A goal is something that you	would like to achieve .
+http://kurtcagle.tumblr.com		A job is something that you	do for a couple of months to perhaps a couple of years , wrap it up and move on to the next job ( or perhaps jobs ) .
+http://law2.umkc.edu/faculty/projects/ftrials/memphis3/WestMemphis3Holmes.html	Now , if you do n't see that match and their manner is stilted , it could be contrived and you could be getting false information but what you 're always looking for when you take	a confession is something that you	can hang your hat on , something that corroborates a confession .
+http://books.torontoist.com/2010/05/an-interview-with-stuart-and-kathryn-immonen	As often happens , the way an editor suggests you fix something is not necessarily the way you end up solving the problem , but the instinct that there is	an issue is something that you	need to listen to .
+http://www.iidc.indiana.edu/?pageId=394	Like any new concept , using	a schedule is something that you	need to teach your son or daughter .
+http://www.electricalknowledge.com/forum/archives/2597.asp		A basement is something that you	walk in and has a concrete floor .
+http://leedeth.wordpress.com/category/e-mail		A memory was something that you	lost with age , A CD was a bank account .
+# = STATS =============================================================
+# HITS:          100
+# DUPLICATES:    8
+# QUERY TIME:    2020-02-18 09:32:48
+# ELAPSED:       73.5019030571 s
+# =====================================================================

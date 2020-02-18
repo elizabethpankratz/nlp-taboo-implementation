@@ -1,0 +1,73 @@
+# = BASIC =============================================================
+# QUERY:         [lemma="a(n)?"][tag="NN"][lemma="be"][word="usually"][word="used"]
+# CORPUS:        encow16a
+# SUBCORPUS:     None
+# = CONFIG ============================================================
+# MAX_HITS:      -1
+# RANDOM_SUBSET: -1
+# ATTRIBUTES:    word
+# STRUCTURES:    
+# REFERENCES:    doc.url
+# CONTAINER:     s
+# CNT_LEFT:      0
+# CNT_RIGHT:     0
+# DEDUPING:      True
+# = CONCORDANCE TSV ===================================================
+doc.url	left.context	match	right.context
+http://developer.android.com/guide/components/fragments.html		A fragment is usually used	as part of an activity 's user interface and contributes its own layout to the activity .
+http://ejmas.com/tin/gorinsho/tinart_taylor_1312.html		A hammer is usually used	in one hand and most people use it in the dominant hand only , but what if you could use it in either hand ?
+http://www.newton.ac.uk/programmes/DOE/seminars/2008081114001.html	Instead ,	an algorithm is usually used	to search for a design which is optimal in some way .
+http://www.netlawman.co.uk/info/option-agreements-2.php	An example where	an option is usually used	, is when an optioner wants to tie down a seller of land while he obtains planning consent .
+http://www.fishkeeping.co.uk/articles_81/tank-and-filter-beginners-guide.htm	For extra large tanks and marine set-ups ,	a sump is usually used	.
+http://www.howto.co.uk/learning/allotments/tools_for_your_allotment		A shovel is usually used	for scooping up loose material , such as coal , corn or dry earth .
+http://ask.slashdot.org/story/14/02/01/210247/ask-slashdot-are-linux-desktop-users-more-pragmatic-now-or-is-it-inertia/informative-comments		A tablet is usually used	for one task at a time .
+http://www.medic8.com/digestive-disorders/menetriers-disease.htm	A type of endoscopy test known as	a gastroscopy is usually used	to diagnose Ménétrier 's disease .
+http://www.beekeepingforum.co.uk/archive/index.php/t-16246.html		A centrifuge is usually used	, along with a 400 x microscope .
+http://www.waysidedental.co.uk/treatments_harpenden_dentist/bridges.htm		A bridge is usually used	where there are fewer teeth to replace , or when the missing teeth are only on one side of the mouth .
+http://www.pcbuyerbeware.co.uk/ProcessorProblems.htm	A recovery system that is launched from	a disc is usually used	instead , which returns the computer to the state it was in when it left the factory ( minus anything you have installed or created ) .
+http://cedars-sinai.edu/Patients/Health-Conditions/Hydrocephalus.aspx	In either case ,	a shunt is usually used	to reduce the fluid buildup .
+http://www.koimag.co.uk/book/export/html/65	Installing a vortex	A vortex is usually used	as the first chamber of a filter system and works best in gravity-fed systems - the water flowing into the unit will travel at a relatively slow speed because it should enter the unit via a 4 in pipe from the bottom drain .
+http://www.oxbridgenotes.co.uk/products/logic-and-language-notes/samples/2-sentences-statements-propositions		A sentence is usually used	to mean a grammatically correct and complete string of expression of a natural language .
+http://www.historylearningsite.co.uk/dissolution_monasteries.htm	Medium sized religious houses were usually called priories ( or nunneries ) and	a friary was usually used	to describe the smallest of houses .
+http://www.natcorp.ox.ac.uk/archive/reports/etll7.html	Use of a corpora can help the learner decide the context in which	a word is usually used	.
+http://crystalinks.com/144messages311.html	This also marks the beginning of the 14th baktun , as such	a term is usually used	among Mayanists .
+http://www.howto.co.uk/writing/english-spelling/using_prefixes_suffixes_and_hyphens		A hyphen is usually used	if two words are placed together to create a new word .
+http://ai-depot.com/articles/path-planning-from-start-to-finish/5		A search is usually used	to build up this solution .
+http://ericbarger.com/articles/fmasonry-sbc.htm	In this ritual ,	a ladder is usually used	.
+http://www.chemtutor.com/ms.htm		A dot is usually used	in the formula to represent the association of the water to the ionic part of the formula .
+http://www.lawdit.co.uk/reading_room/room/view_article.asp?name=../articles/105553-Restraint-of-trade.htm	Such	a clause is usually used	to protect an employer 's trade connections and terms of business .
+http://floppsie.comp.glam.ac.uk/python/html/lib/node321.html	This functionality exists so that a pickle data stream can be " sniffed " for object references without actually instantiating all the objects in a pickle .13.8 Setting persistent_load to	a list is usually used	in conjunction with the noload ( ) method on the Unpickler .
+http://ausweb.scu.edu.au/aw02/papers/refereed/vercoustre/paper.html	Since	a wrapper is usually used	dynamically and regularly to get updated data , it is important that it is efficient .
+http://thepricker.synthasite.com	Evidence of foreknowledge of	a crime is usually used	to convict criminals , but in his case it has been cited to praise how smart he was ( Frontline , ' The man who knew ' , PBS , etc. ) .
+http://www.foreverdelayed.org.uk/forum/archive/index.php/t-686.html	It 's been a while since I did English lessons , but I 'm sure I 'm right ...	an apostrophe is usually used	to pretty much shorten a word , like " it is " = " it 's " etc , but it can also be used in a posessive way , like " Susan 's car " or something , right ?
+http://amasci.com/amateur/holodisc.html	Seems you 're using the compass as a mechanical way to generate controlled spacings in the same way	a computer is usually used	to compute the separation map .
+http://www.articlesnatch.com/topic/online+web+directory	While submitting a web site link ,	a form is usually used	to fill in the details of t ...
+http://www.forsyths.co.uk/guitars/acoustic-pickups-choosing-the-right-one-for-your-guitar	As this signal is very weak ,	a pre-amp is usually used	to boost the level of the signal before it leaves the guitar .
+http://www2.essex.ac.uk/stdsup/wellbeingservice/whatcouns.shtm	A first meeting with	a counsellor is usually used	as an opportunity to discuss whether continued counselling would be appropriate to your needs .
+http://asp.eurasipjournals.com/content/2013/1/92	Since the entropy of	an image is usually used	as an index that quantitatively represents the information of the luminosity distribution of the image , entropy criterion is used to analyze the performance for the complete aperture case .
+http://ww2poster.co.uk/phd-research/phd-the-planning-design-and-reception-of-british-home-front-propaganda-posters-of-the-second-world-war-creative-commons-drbexl/chapter-2-placing-the-british-experience-of-the-propaganda-poster-in-context	[ 77 ] The Beggarstaffs dispensed with the British obsession for placing poster designs within a frame , [ 78 ] where	a picture was usually used	as a poster , with the printers ( ' the experts ' ) adding the lettering later , rather than the text being an integral part of the design .
+http://web2.uvcs.uvic.ca/elc/studyzone/410/grammar/3cond.htm	If the " if " clause comes first ,	a comma is usually used	.
+http://www.safespeed.org.uk/forum/viewtopic.php?f=31%26t=17971%26p=176095%26sid=b5ebcde51c6cd8cefdb8e54541b694ba	Otherwise than in accordance with	a licence is usually used	to cover the circumstances I gave .
+http://www.merg.org.uk/merg_resources/glossary.php	Most ICs ( chips ) cannot provide this current and	a transistor is usually used	to amplify the small IC current to the larger value required for the relay coil .
+http://www.gunsandcrime.org/guntypes.html	But	a shotgun is usually used	to shoot a packet of " shot , " like little beads .
+http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/react2.htm	The kinetic order of	a reaction is usually used	to determine its molecularity .
+http://www.mostlyfood.co.uk/Recipes/Boozy_Christmas_Pudding.htm		A saucer is usually used	underneath the pudding basin to prevent the pudding being on a direct heat and overcooking .
+http://www.patient.co.uk/health/Hernia.htm	Again ,	a mesh is usually used	, especially for larger hernias .
+http://www.apparelsearch.com/Definitions/Clothing/coverall.htm		An overall is usually used	as protective clothing when working , but they have sometimes been items of fashion , especially in the 1990 s .
+http://www.intelligentretail.co.uk/amazon-integration.jsp	Note :	A barcode is usually used	to tell Amazon which product you are sending them .
+http://www.colchesterhomebrew.co.uk/faqs.html	With a standard keg , you would prime the beer when adding it to a keg , but	a cornie is usually used	to store and dispense clear , virtually dead beer at high pressure , so it is more common to artificially carbonate it rather than naturally condition it in a sealed vessel .
+http://www.ute-sei.org/English/docs/rulesoforder/glossary-terms.cfm		A caucus is usually used	as a means of reaching a common understanding or consensus on policies ( or candidates ) to be supported by the members of the caucus .
+http://www.weldricks.co.uk/index.php?option=com_nhs%26id=591%26Itemid=70	For older children and adults , a piece of equipment called	an audiometer is usually used	to test hearing .
+http://www.apwe.co.uk/site_assessment.html		An anemometer is usually used	, although these are expensive to buy when the chances are you will only need to use it once .
+http://blog.mlive.com/kalamabrew/2008/03/the_abcs_of_beer.html		A syphon is usually used	to avoid transferring unsavory sediments along with your brew .
+http://foolsworkshop.com/reviews/iflipr-review		A slide is usually used	to mean you are going to a new card .
+http://customs.hmrc.gov.uk/channelsPortalWebApp/channelsPortalWebApp.portal?_nfpb=true%26_pageLabel=pageLibrary_ShowContent%26id=HMCE_CL_000164%26propertyType=document		A dye is usually used	with the marker so that rebated oil can be easily identified .
+http://www.patient.co.uk/health/urethral-stricture		A graft is usually used	from the inside of your cheek to form the new section of your urethra .
+http://beckerexhibits.wustl.edu/dental/articles/French_1904.html	Though	a cup was usually used	in taking an impression , I have seen for small plates the wax placed on the fingers and then into the mouth .
+http://chandrakantha.com/tablasite/articles/cyclic.htm		A tihai is usually used	, but this is merely a reflection of universal custom rather than anything inherent to the gat .
+# = STATS =============================================================
+# HITS:          51
+# DUPLICATES:    2
+# QUERY TIME:    2020-02-18 09:09:09
+# ELAPSED:       66.9233241081 s
+# =====================================================================

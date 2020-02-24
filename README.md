@@ -2,18 +2,20 @@
 
 A Taboo-style card generator, using pre-trained word2vec embeddings and semantic relations from WordNet, and a Taboo player text generator, implemented with an RNN using GRUs.
 
-![](card.gif)
-
-(text generator gif)
-
 Final project for the course **BM1 Advanced Natural Language Processing** at the Universität Potsdam in the winter semester 2019/2020.
+
 Developed by **Anna-Janina Goecke**, **Rodrigo Lopez Portillo Alcocer**, and **Elizabeth Pankratz**.
 
 
 ## What it does
 
-- Given a "main word" (the word that your team members should guess), the card generator generates five "taboo words" (the words you cannot use in your description of the main word).
-- Given a main word and five taboo words, the text generator's goal is to produce syntactically coherent text that describes the main word without using any of the taboo words.
+Given a "main word" (the word that your team members should guess), the card generator generates five "taboo words" (the words you cannot use in your description of the main word).
+
+![](card.gif)
+
+Given a main word and five taboo words, the text generator's goal is to produce syntactically coherent text that describes the main word without using any of the taboo words.
+
+(text generator gif)
 
 
 ## How to use

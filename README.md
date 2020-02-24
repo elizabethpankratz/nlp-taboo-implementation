@@ -1,10 +1,64 @@
-## Taboo Implementation
+# Taboo Implementation
 
-Group members:
-- Anna-Janina Goecke
-- Rodrigo Lopez Portillo Alcocer
-- Elizabeth Pankratz
+A Taboo-style card generator, using pre-trained word2vec embeddings and semantic relations from WordNet, and a Taboo player text generator, implemented with an RNN using GRUs.
 
-This repository contains our final project for the course BM1 Advanced Natural Language Processing at the Universität Potsdam in the winter semester 2019/2020: an implementation of the game Taboo.
+Final project for the course BM1 Advanced Natural Language Processing at the Universität Potsdam in the winter semester 2019/2020.
 
-In Taboo, a player draws a card that shows one main word (MW) and five related “taboo” words (TWs), and the player’s task is to describe the MW without using any of the TWs. For example, given the MW “sweet”, TWs might include “sugary”, “tea”, “nice”, “sour”, and “sixteen”, and these must all be avoided in the description of “sweet”. Each team gains points based on how many MWs the team members can successfully guess within a set length of time. Our implementation will consist of two components of the gameplay: a Taboo card generator and a Taboo player.
+Developed by Anna-Janina Goecke, Rodrigo Lopez Portillo Alcocer, and Elizabeth Pankratz.
+
+
+## What it does
+
+Given a "main word" (the word that your team members should guess), the card generator generates five "taboo words" (the words you cannot use in your description of the main word).
+
+![](card.gif)
+
+Given a main word and five taboo words, the text generator's goal is to produce syntactically coherent text that describes the main word without using any of the taboo words.
+
+(text generator gif)
+
+
+## How to use
+
+To run this project, you need Python 3 and the libraries `gensim`, `pandas`, `numpy`, `random`, `nltk`, **(RLPA: Add your libraries here too!)**.
+Also, you should download the pre-trained word2vec embeddings, `GoogleNews-vectors-negative300.bin`, from the [link](https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM) provided in the course.
+(This file is not included in the current repository because of its size.)
+
+Begin by cloning this repository.
+
+```
+git clone https://github.com/epankratz/nlp-taboo-implementation
+```
+
+### Card generator
+
+Move `GoogleNews-vectors-negative300.bin` into the directory `card-generator/`.
+
+Now, within `card-generator/`, run the following in Python's interactive shell on your command line:
+
+```
+# Import the necessary libraries/modules
+>>> import gensim; import cardgen as cg
+
+# Load the pre-trained embeddings
+>>> model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+
+# Draw a card for your favourite word!
+>>> cg.draw_card('delight', model)
+```
+
+For more detail about how the card generator works, please see `card-generator/walkthrough.ipynb`.
+
+
+### Text generator
+
+- text gen detail
+- detail 1
+- detail 2
+
+
+## Sources
+
+Our text generator implementation was inspired by the following tutorials:
+- i from j
+- n from m

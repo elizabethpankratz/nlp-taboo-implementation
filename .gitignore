@@ -5,7 +5,14 @@
 .ipynb_checkpoints
 __pycache__
 
-## Beamer files
+## Other unnecessary clutter
+.DS_Store
+
+## Images
+*.jpg
+*.png
+
+## Peripheral LaTeX/Beamer files
 *.aux
 *.bbl
 *.bcf

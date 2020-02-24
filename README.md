@@ -47,7 +47,7 @@ Now, within `gold-standard/`, run the following in Python's interactive shell on
 >>> cg.draw_card('delight', model)
 ```
 
-For more detail about how the card generator works, please see `dir/xyz-walkthrough.ipynb`.
+For more detail about how the card generator works, please see `gold-standard/card-generator-walkthrough.ipynb`.
 
 
 ### Text generator

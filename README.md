@@ -2,9 +2,9 @@
 
 A Taboo-style card generator, using pre-trained word2vec embeddings and semantic relations from WordNet, and a Taboo player text generator, implemented with an RNN using GRUs.
 
-Final project for the course **BM1 Advanced Natural Language Processing** at the Universität Potsdam in the winter semester 2019/2020.
+Final project for the course BM1 Advanced Natural Language Processing at the Universität Potsdam in the winter semester 2019/2020.
 
-Developed by **Anna-Janina Goecke**, **Rodrigo Lopez Portillo Alcocer**, and **Elizabeth Pankratz**.
+Developed by Anna-Janina Goecke, Rodrigo Lopez Portillo Alcocer, and Elizabeth Pankratz.
 
 
 ## What it does

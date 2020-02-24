@@ -12,7 +12,7 @@ Developed by **Anna-Janina Goecke**, **Rodrigo Lopez Portillo Alcocer**, and **E
 
 ## What it does
 
-- Given a *main word* (the word that your team members should guess), the card generator generates five *taboo words* (the words you cannot use in your description of the main word).
+- Given a "main word" (the word that your team members should guess), the card generator generates five "taboo words" (the words you cannot use in your description of the main word).
 - Given a main word and five taboo words, the text generator's goal is to produce syntactically coherent text that describes the main word without using any of the taboo words.
 
 

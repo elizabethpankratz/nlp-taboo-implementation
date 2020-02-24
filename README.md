@@ -1,10 +1,61 @@
-## Taboo Implementation
+# Taboo Implementation
 
-Group members:
-- Anna-Janina Goecke
-- Rodrigo Lopez Portillo Alcocer
-- Elizabeth Pankratz
+A Taboo-style card generator, using pre-trained word2vec embeddings and semantic relations from WordNet, and a Taboo player text generator, implemented with GRUs using PyTorch.
 
-This repository contains our final project for the course BM1 Advanced Natural Language Processing at the Universität Potsdam in the winter semester 2019/2020: an implementation of the game Taboo.
+(card generator gif)
 
-In Taboo, a player draws a card that shows one main word (MW) and five related “taboo” words (TWs), and the player’s task is to describe the MW without using any of the TWs. For example, given the MW “sweet”, TWs might include “sugary”, “tea”, “nice”, “sour”, and “sixteen”, and these must all be avoided in the description of “sweet”. Each team gains points based on how many MWs the team members can successfully guess within a set length of time. Our implementation will consist of two components of the gameplay: a Taboo card generator and a Taboo player.
+(text generator gif)
+
+Final project for the course BM1 Advanced Natural Language Processing at the Universität Potsdam in the winter semester 2019/2020.
+Developed by Anna-Janina Goecke, Rodrigo Lopez Portillo Alcocer, and Elizabeth Pankratz.
+
+
+## Key features
+
+- point form
+- what it does
+
+
+## How to use
+
+To run this project, you need Python 3 and the libraries x, y, and z.
+Also, you should download the pre-trained word2vec embeddings from here (link).
+(These are not included in the repository because of size.)
+
+Begin by cloning this repository.
+
+```
+# Clone this repository
+git clone https://github.com/epankratz/nlp-taboo-implementation
+```
+
+### Taboo card generator
+
+Move big word vector file in x folder.
+
+Now, from your command line:
+
+```
+# comment
+abc 
+
+# comment
+jkl
+```
+
+For a commentated illustration of the card generator, see `dir/xyz-llustration.ipynb`.
+For more detail about the card generator's development, see `dir/xyz-walkthrough.ipynb`.
+
+
+### Text generator
+
+- text gen detail
+- detail 1
+- detail 2
+
+
+## Sources
+
+Our text generator implementation was inspired by the following tutorials:
+- i from j
+- n from m

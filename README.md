@@ -12,8 +12,8 @@ Developed by **Anna-Janina Goecke**, **Rodrigo Lopez Portillo Alcocer**, and **E
 
 ## What it does
 
-- Given a "main word" (the word that your team members should guess), the card generator generates five "taboo words" (the words you cannot us in your description of the main word).
-- Given a main word and five taboo words, the text generator produces syntactically coherent text that ideally would describe the main word, without using any of the taboo words.
+- Given a *main word* (the word that your team members should guess), the card generator generates five *taboo words* (the words you cannot use in your description of the main word).
+- Given a main word and five taboo words, the text generator's goal is to produce syntactically coherent text that describes the main word without using any of the taboo words.
 
 
 ## How to use
@@ -41,12 +41,11 @@ Now, from Python's interactive shell on your command line:
 # Load the pre-trained embeddings
 >>> model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
 
-# Draw a card for your favourite word! (This will take a few moments the first time.)
+# Draw a card for your favourite word!
 >>> cg.draw_card('delight', model)
 ```
 
-For a commentated illustration of the above steps, see `dir/xyz-llustration.ipynb`.
-For more detail about how the card generator works, see `dir/xyz-walkthrough.ipynb`.
+For more detail about how the card generator works, please see `dir/xyz-walkthrough.ipynb`.
 
 
 ### Text generator

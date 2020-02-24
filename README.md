@@ -6,8 +6,8 @@ A Taboo-style card generator, using pre-trained word2vec embeddings and semantic
 
 (text generator gif)
 
-Final project for the course BM1 Advanced Natural Language Processing at the Universität Potsdam in the winter semester 2019/2020.
-Developed by Anna-Janina Goecke, Rodrigo Lopez Portillo Alcocer, and Elizabeth Pankratz.
+Final project for the course **BM1 Advanced Natural Language Processing** at the Universität Potsdam in the winter semester 2019/2020.
+Developed by **Anna-Janina Goecke**, **Rodrigo Lopez Portillo Alcocer**, and **Elizabeth Pankratz**.
 
 
 ## Key features

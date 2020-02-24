@@ -1,44 +1,20 @@
 ## The huge gensim model
 *.bin
 
-## Core latex/pdflatex auxiliary files:
+## Python-related folders
+.ipynb_checkpoints
+__pycache__
+
+## Beamer files
 *.aux
-*.lof
-*.log
-*.lot
-*.fls
-*.out
-*.toc
-*.fmt
-*.fot
-*.cb
-*.cb2
-
-## Intermediate documents:
-*.dvi
-*-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-*.eps
-# *.pdf
-
-## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
 *.bcf
 *.blg
-*-blx.aux
-*-blx.bib
-*.brf
-*.run.xml
-
-## Build tool auxiliary files:
-*.fdb_latexmk
-*.synctex
-*.synctex.gz
-*.synctex.gz(busy)
-*.pdfsync
-
-## Beamer files:
+*.log
+*.out
 *.nav
+*.run.xml
 *.snm
+*.synctex.gz
+*.toc
 *.vrb

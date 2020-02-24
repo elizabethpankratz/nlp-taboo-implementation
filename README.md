@@ -2,7 +2,7 @@
 
 A Taboo-style card generator, using pre-trained word2vec embeddings and semantic relations from WordNet, and a Taboo player text generator, implemented with an RNN using GRUs.
 
-(card generator gif)
+![](card.gif)
 
 (text generator gif)
 

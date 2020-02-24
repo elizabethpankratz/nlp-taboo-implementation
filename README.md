@@ -32,21 +32,21 @@ git clone https://github.com/epankratz/nlp-taboo-implementation
 
 Move `GoogleNews-vectors-negative300.bin` into the directory `gold-standard/`.
 
-Now, from your command line:
+Now, from Python's interactive shell on your command line:
 
 ```
 # Import the necessary libraries/modules
-import cardgen as cg
-import gensim
+>>> import gensim; import cardgen as cg
 
 # Load the pre-trained embeddings
-model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+>>> model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
 
-# ...
+# Draw a card for your favourite word! (This will take a few moments the first time.)
+>>> cg.draw_card('delight', model)
 ```
 
-For a commentated illustration of the card generator, see `dir/xyz-llustration.ipynb`.
-For more detail about the card generator's development, see `dir/xyz-walkthrough.ipynb`.
+For a commentated illustration of the above steps, see `dir/xyz-llustration.ipynb`.
+For more detail about how the card generator works, see `dir/xyz-walkthrough.ipynb`.
 
 
 ### Text generator

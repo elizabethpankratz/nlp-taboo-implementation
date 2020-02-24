@@ -134,7 +134,7 @@ def pretty_print(card):
 
     # If word not in word2vec vocab, then card's value is just False. Check if that's the case.
     if not card:
-        print('Sorry, no card can be generated for this word! Please choose another.')
+        print('Sorry, no card can be generated for this word! Please try another one.')
         return None
 
     # If the card does have some value, we continue on...
@@ -177,17 +177,21 @@ def get_gold_probdist():
     return probdist_dict
 
 
-def draw_card(mw, prob_dist_dict, gensim_model):
+def draw_card(mw, gensim_model):
     """
     Generates a Taboo card with one main word and five Taboo words and pretty-prints it.
 
     Args:
         mw: A string, the main word to generate the Taboo words for.
-        prob_dist_dict: a dictionary with semantic relation labels as keys and their probability as values
-           (output of freq_dist_to_prob_dist() )
         gensim_model: The pre-trained word embeddings.
     Returns:
         Nothing. Prints a card.
     """
+
+    # Get the probability distribution of labels for each TW slot, based on the frequency of each semantic category
+    # in the gold-standard Taboo cards.
+    prob_dist_dict = get_gold_probdist()
+
+    # Use this probability, the main word, and the model to generate a card, and then pretty-print it.
     c = card_generator(mw, prob_dist_dict, gensim_model)
     pretty_print(c)

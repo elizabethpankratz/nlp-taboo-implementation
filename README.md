@@ -32,9 +32,9 @@ git clone https://github.com/epankratz/nlp-taboo-implementation
 
 ### Card generator
 
-Move `GoogleNews-vectors-negative300.bin` into the directory `gold-standard/`.
+Move `GoogleNews-vectors-negative300.bin` into the directory `card-generator/`.
 
-Now, within `gold-standard/`, run the following in Python's interactive shell on your command line:
+Now, within `card-generator/`, run the following in Python's interactive shell on your command line:
 
 ```
 # Import the necessary libraries/modules
@@ -47,7 +47,7 @@ Now, within `gold-standard/`, run the following in Python's interactive shell on
 >>> cg.draw_card('delight', model)
 ```
 
-For more detail about how the card generator works, please see `gold-standard/card-generator-walkthrough.ipynb`.
+For more detail about how the card generator works, please see `card-generator/walkthrough.ipynb`.
 
 
 ### Text generator

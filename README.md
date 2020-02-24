@@ -32,7 +32,7 @@ git clone https://github.com/epankratz/nlp-taboo-implementation
 
 Move `GoogleNews-vectors-negative300.bin` into the directory `gold-standard/`.
 
-Now, from Python's interactive shell on your command line:
+Now, within `gold-standard/`, run the following in Python's interactive shell on your command line:
 
 ```
 # Import the necessary libraries/modules

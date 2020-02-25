@@ -1,12 +1,50 @@
 All test where run with:
-trigrams, all
+
 epochs, 100
 print_every, 10
 plot_every, 10
 lr, 0.015
 -------------------
 test, 1
+trigrams, 2921828 (all)
+vocab, all ~800000
 hidden_s, 75
 n_layers, 2
 lr, 00.15
-training_time, 
+training_time, kernel_died
+
+------------------
+test, 2
+trigrams, 100000 
+vocab, all ~800000
+hidden_s, 75
+n_layers, 2
+lr, 00.15
+training_time, kernel_died
+
+------------------
+test, 3
+trigrams, 50000
+vocab, all ~80000
+hidden_s, 75
+n_layers, 2
+lr, 00.15
+training_time, aborted after 1h without reaching 10%
+
+------------------
+test, 4
+trigrams, 50000
+vocab, trigrams ~16518
+hidden_s, 75
+n_layers, 2
+lr, 00.15
+training_time, 30min 10, 60min 20, 89min 30, 118min 40, 151 50, 196 60, 246 70, 295 80, 331 90, 380 100
+
+------------------
+test, 5
+trigrams, 50000
+vocab, trigrams ~16500
+hidden_s, 150
+n_layers, 1
+lr, 00.15
+training_time, 71min 10, 143 20, 214 30 

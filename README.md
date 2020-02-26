@@ -20,7 +20,7 @@ Given a main word and five taboo words, the text generator's goal is to produce 
 
 ## How to use
 
-To run this project, you need Python 3 and the libraries `gensim`, `pandas`, `numpy`, `random`, `nltk`, **(RLPA: Add your libraries here too!)**.
+To run this project, you need Python 3 and the libraries `gensim`, `pandas`, `numpy`, `random`, `nltk`, `matplotlib.pyplot`, `string`, `torch`, `torch.nn`, `Variable` from `torch.autograd`, `time`, `os`, `pickle` and `math`.
 Also, you should download the pre-trained word2vec embeddings, `GoogleNews-vectors-negative300.bin`, from the [link](https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM) provided in the course.
 (This file is not included in the current repository because of its size.)
 

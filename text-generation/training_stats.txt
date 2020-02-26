@@ -39,7 +39,7 @@ hidden_s, 75
 n_layers, 2
 lr, 00.15
 training_time, 30min 10, 60min 20, 89min 30, 118min 40, 151 50, 196 60, 246 70, 295 80, 331 90, 380 100
-
+NO SEED
 ------------------
 test, 5
 trigrams, 50000
@@ -47,4 +47,5 @@ vocab, trigrams ~16500
 hidden_s, 150
 n_layers, 1
 lr, 00.15
-training_time, 71min 10, 143 20, 214 30 
+training_time, 71min 10, 143 20, 214 30, 286 40, 361 50, 436 60, 508 70, 587 80, 675 90, 753 100
+NO SEED BUT SAVED TRIGRAMS OBJECT

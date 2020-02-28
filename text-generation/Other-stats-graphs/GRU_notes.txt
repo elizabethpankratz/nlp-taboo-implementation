@@ -1,0 +1,59 @@
+Recurrent Neural Networks:
+Intuitive way of modelling sequential data (one point depends a lot on the previous ones). Output goes back as input.
+
+RNN for dummies: https://www.youtube.com/watch?v=UNmqTiOnRfg
+
+
+
+
+Gated Recurrent Unit:
+Like Long Short-Term Memory (LSTM), they are a type of Recurrent Neural Network (RNN).
+They are able to retain dependencies on different scales "long and short term" in sequential data.
+Introduced in 2014 by Cho, et al. --> very recent compared to 1997's LSTM!
+
+STRUCTURE
+GRU uses gating mechanisms to manage the information flow between nodes in the NN.
+The use of gating units solves the vanishing/exploding gradient problem of "traditional" RNNs.
+Because of its structure GRUs are able to "remember" long term dependencies without "forgetting" information from earlier parts of the series/sequence.
+The gates regulate/"decide" which info is kept or discarded at each time step
+
+GRU cell input --> element of the sequence + memory/hidden state from previous cell
+
+HOW DOES IT WORK?
+One GRU cell contains two gates: Update gate and Reset gate. Like with the gates used in LSTMs, they are trained to filter out irrelevant info while
+"remembering" what is worth keeping. They are essentially vectors with values bet. 0-1 which will be multiplied with the input data and/or the hidden state.
+A 0 value in the gate vectors means that the corresponding data in the input and/or hidden state is not important --> returns a 0.
+A 1 value in the gate vectors means that the data is important and will be used in the next steps.
+
+Reset gate: derived and calculated using both the hidden state from the previous step and the input data at the current time step
+--> multiply previous hs and current input with their respective weights and sum them --> pass through sigmoid to get 0-1
++ Formula from paper
+After training via back-prop, the weights in the equation should allow the vector to retain only the useful features.
+Then prev hs * weights --> Hadamard product with reset vector. (filtering operation).
+(all this is way clearer in formulas)
+
+Update gate:
+Same steps as before but different weights --> probably this is where the advantage over LSTM comes from!
+
+In summary, the reset gate is responsible for deciding which portions of the previous hidden state are combined with the current input to propose a new hidden state.
+Update gate decides how much of the prev hs we will keep and what portion of the new proposed hs (given by reset gate) will be added to the final hidden state.
+
+
+GRU vs LSTM:
+Faster and similar accuracy and effectiveness.
+LSTMs have two different states passed between the cells: cell state (carrying long term memory) and the hidden state (short term memory)
+GRUs only have one hidden state transferred between time steps, which is able to hold both dependencies at the same time due to its structure.
+
+
+VANISHING/EXPLODING GRADIENT PROBLEM
+Carrying a gradient through many layers can cause finite precision errors to arise.
+Solving it:
+"The vanishing/exploding gradient problem occurs during back-propagation when training the RNN, especially if the RNN is processing long sequences or has multiple layers. The error gradient calculated during training is used to update the network’s weight in the right direction and by the right magnitude. However, this gradient is calculated  with the chain rule, starting from the end of the network. Therefore, during back-propagation, the gradients will continuously undergo matrix multiplications and either shrink (vanish) or blow up (explode) exponentially for long sequences. Having a gradient that is too small means the model won’t update its weights effectively, whereas extremely large gradients cause the model to be unstable.
+The gates in the LSTM and GRUs help to solve this problem because of the additive component of the Update gates. While traditional RNNs always replace the entire content of the hidden state at each time step, LSTMs and GRUs keep most of the existing hidden state while adding new content on top of it. This allows the error gradients to be back-propagated without vanishing or exploding too quickly due to the addition operations."
+
+SOURCES
+Papers discussed with Anna
+
+NICE IMAGES FOR THE REPORT
+https://blog.floydhub.com/gru-with-pytorch/
+Self-drawn?

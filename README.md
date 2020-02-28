@@ -15,7 +15,8 @@ Given a "main word" (the word that your team members should guess), the card gen
 
 Given a main word and five taboo words, the text generator's goal is to produce syntactically coherent text that describes the main word without using any of the taboo words.
 
-(text generator gif)
+![](text.gif)
+
 
 
 ## How to use
@@ -52,13 +53,15 @@ For more detail about how the card generator works, please see `card-generator/w
 
 ### Text generator
 
-- text gen detail
-- detail 1
-- detail 2
+- Navigate to the text-generation/ folder and open 'Demo.ipynb'
+- Run the code sequentially without skipping any cells. Some instructions might be different depending on the model being tested.
+
+For a detailed description on how our description generator works, please see 'text-generation/Walkthrough.ipynb'.
 
 
 ## Sources
 
-Our text generator implementation was inspired by the following tutorials:
-- i from j
-- n from m
+Our text generator implementation was inspired by the following tutorials and blog-posts:
+- "The Unreasonable Effectiveness of Recurrent Neural Networks", bu Andrej Karpathy. https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+- "Beginners Guide to Text Generation (Pytorch)", by Abhishek Kumar. https://www.kaggle.com/ab971631/beginners-guide-to-text-generation-pytorch
+- "Text Generation with Pytorch", by Trung Tran. https://machinetalk.org/2019/02/08/text-generation-with-pytorch/

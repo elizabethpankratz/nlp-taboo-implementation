@@ -48,20 +48,20 @@ Now, within `card-generator/`, run the following in Python's interactive shell o
 >>> cg.draw_card('delight', model)
 ```
 
-For more detail about how the card generator works, please see `card-generator/walkthrough.ipynb`.
+For more detail about how our card generator works, please see `card-generator/walkthrough.ipynb`.
 
 
 ### Text generator
 
-- Navigate to the text-generation/ folder and open 'Demo.ipynb'
-- Run the code sequentially without skipping any cells. Some instructions might be different depending on the model being tested.
+Navigate to `text-generation/` and open `Demo.ipynb`.
+Run the code sequentially without skipping any cells. Some instructions might be different depending on the model being tested.
 
-For a detailed description on how our description generator works, please see 'text-generation/Walkthrough.ipynb'.
+For more detail on how our description generator works, please see `text-generation/Walkthrough.ipynb`.
 
 
 ## Sources
 
-Our text generator implementation was inspired by the following tutorials and blog-posts:
-- "The Unreasonable Effectiveness of Recurrent Neural Networks", bu Andrej Karpathy. https://karpathy.github.io/2015/05/21/rnn-effectiveness/
-- "Beginners Guide to Text Generation (Pytorch)", by Abhishek Kumar. https://www.kaggle.com/ab971631/beginners-guide-to-text-generation-pytorch
-- "Text Generation with Pytorch", by Trung Tran. https://machinetalk.org/2019/02/08/text-generation-with-pytorch/
+Our text generator implementation was inspired by the following tutorials and blog posts:
+- [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
+- [Beginners Guide to Text Generation (Pytorch)](https://www.kaggle.com/ab971631/beginners-guide-to-text-generation-pytorch) by Abhishek Kumar
+- [Text Generation with Pytorch](https://machinetalk.org/2019/02/08/text-generation-with-pytorch/) by Trung Tran

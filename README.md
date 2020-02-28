@@ -21,7 +21,7 @@ Given a main word and five taboo words, the text generator's goal is to produce 
 
 ## How to use
 
-To run this project, you need Python 3 and the libraries `gensim`, `pandas`, `numpy`, `random`, `nltk`, `matplotlib.pyplot`, `string`, `torch`, `torch.nn`, `Variable` from `torch.autograd`, `time`, `os`, `pickle` and `math`.
+To run this project, you need Python 3 and the libraries `gensim`, `math`, `matplotlib`, `nltk`, `numpy`, `os`, `pandas`, `pickle`, `random`, `string`, `torch`, and `time`.
 Also, you should download the pre-trained word2vec embeddings, `GoogleNews-vectors-negative300.bin`, from the [link](https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM) provided in the course.
 (This file is not included in the current repository because of its size.)
 
@@ -35,7 +35,7 @@ git clone https://github.com/epankratz/nlp-taboo-implementation
 
 Move `GoogleNews-vectors-negative300.bin` into the directory `card-generator/`.
 
-Now, within `card-generator/`, run the following in Python's interactive shell on your command line:
+Now, within `card-generator/`, run the following in Python's interactive shell on your command line. (The first call of `draw_card()` will take a couple minutes while the word embeddings are being set up, so go get a coffee and come back ready to play!)
 
 ```
 # Import the necessary libraries/modules
@@ -53,8 +53,11 @@ For more detail about how our card generator works, please see `card-generator/w
 
 ### Text generator
 
-Navigate to `text-generation/` and open `Demo.ipynb`.
-Run the code sequentially without skipping any cells. Some instructions might be different depending on the model being tested.
+Move or copy `GoogleNews-vectors-negative300.bin` into the directory `text-generation/`.
+
+Within `text-generation/`, open `Demo.ipynb`.
+Run the code sequentially without skipping any cells. 
+Some instructions might be different depending on the model being tested.
 
 For more detail on how our description generator works, please see `text-generation/Walkthrough.ipynb`.
 

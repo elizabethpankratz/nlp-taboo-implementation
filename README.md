@@ -15,7 +15,7 @@ Given a "main word" (the word that your team members should guess), the card gen
 
 Given a main word and five taboo words, the text generator's goal is to produce syntactically coherent text that describes the main word without using any of the taboo words.
 
-![](tgeneration.gif)
+![](text.gif)
 
 
 

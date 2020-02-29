@@ -5,7 +5,7 @@
 .ipynb_checkpoints
 __pycache__
 
-## Other unnecessary clutter
+## Other clutter
 .DS_Store
 
 ## Images
@@ -25,3 +25,6 @@ __pycache__
 *.synctex.gz
 *.toc
 *.vrb
+
+## Playground file for us for project report
+/text-generation/Results.ipynb
